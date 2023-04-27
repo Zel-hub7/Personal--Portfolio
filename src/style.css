@@ -1,110 +1,98 @@
 @media (max-width: 600px) {
-    * {
-        padding: 0;
-        margin: 0;
-        text-decoration: none;
-        list-style: none;
-        box-sizing: border-box;
+  * {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
 
-    }
+  /* stylings for navigation */
+  nav {
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    background: #3c3a39;
+    display: flex;
+    justify-content: space-between;
+  }
 
-    /* stylings for navigation */
-    nav {
-        position: absolute;
-        height: 10%;
-        width: 100%;
-        background: #3C3A39;
-        display: flex;
-        justify-content: space-between;
-    }
+  .logo-container {
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    margin-top: 3%;
+    color: #fff;
+  }
 
-    .logo-container {
-        display: flex;
-        align-items: center;
-        margin-left: 3%;
-        margin-top: 3%;
-        color: #FFFFFF;
+  .hamberger-btn {
+    display: block;
+    font-size: 25px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+  }
 
-    }
+  .section {
+    background-color: #1c1a19;
+    height: 100vh;
+  }
 
-    .hamberger-btn {
-        display: block;
-        font-size: 25px;
-        color: white;
-        float: right;
-        line-height: 80px;
-        margin-right: 40px;
-        cursor: pointer;
-    }
+  .container {
+    padding-top: 15%;
+    flex-grow: 1;
+    height: 100vh;
+  }
 
-    .section {
-        background-color: #1C1A19;
-        height: 100vh;
-    }
+  #my_name {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 540%;
+    line-height: 64px;
+    letter-spacing: 0.37px;
+    color: #ff6b00;
+    flex: none;
+    padding-top: 18%;
+    padding-left: 5%;
+    align-items: center;
+  }
 
-    .container {
-        padding-top: 15%;
-        flex-grow: 1;
-        height: 100vh;
-    }
+  #title {
+    color: #fff5e1;
+    padding-left: 5%;
+    padding-top: 3%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+  }
 
-    #my_name {
-        font-family: 'Crete Round';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 540%;
-        line-height: 64px;
-        letter-spacing: 0.37px;
-        color: #FF6B00;
-        flex: none;
-        padding-top: 18%;
-        padding-left: 5%;
-        align-items: center;
-    }
+  #describe_me {
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 110%;
+    padding-left: 5%;
+    padding-top: 3%;
+  }
 
-    #title {
-        color: #FFF5E1;
-        padding-left: 5%;
-        padding-top: 3%;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 32px;
-    }
+  #social {
+    padding-left: 7%;
+    padding-top: 3%;
+    width: 60%;
+  }
 
-    #describe_me {
-        color: #FFFFFF;
-        font-family: 'Poppins';
-        font-weight: 400;
-        font-style: normal;
-        font-size: 110%;
-        padding-left: 5%;
-        padding-top: 3%;
-
-    }
-
-    #social {
-        padding-left: 7%;
-        padding-top: 3%;
-        width: 60%;
-    }
-
-    #design {
-        position: absolute;
-        width: 23%;
-        bottom: 0%;
-        left: 77.0%;
-        top: 50%;
-        padding-right: -20%;
-    }
-
-
-
-
-
-
-
-
-
+  #design {
+    position: absolute;
+    width: 23%;
+    bottom: 0%;
+    left: 77%;
+    top: 50%;
+    padding-right: -20%;
+  }
 }
