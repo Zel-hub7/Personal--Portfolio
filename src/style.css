@@ -1,5 +1,5 @@
 @media (max-width: 600px) {
-    *{
+    * {
         padding: 0;
         margin: 0;
         text-decoration: none;
@@ -17,14 +17,16 @@
         display: flex;
         justify-content: space-between;
     }
+
     .logo-container {
         display: flex;
         align-items: center;
         margin-left: 3%;
         margin-top: 3%;
-        color:#FFFFFF;
+        color: #FFFFFF;
 
     }
+
     .hamberger-btn {
         display: block;
         font-size: 25px;
@@ -34,5 +36,75 @@
         margin-right: 40px;
         cursor: pointer;
     }
+
+    .section {
+        background-color: #1C1A19;
+        height: 100vh;
+    }
+
+    .container {
+        padding-top: 15%;
+        flex-grow: 1;
+        height: 100vh;
+    }
+
+    #my_name {
+        font-family: 'Crete Round';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 540%;
+        line-height: 64px;
+        letter-spacing: 0.37px;
+        color: #FF6B00;
+        flex: none;
+        padding-top: 18%;
+        padding-left: 5%;
+        align-items: center;
+    }
+
+    #title {
+        color: #FFF5E1;
+        padding-left: 5%;
+        padding-top: 3%;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    #describe_me {
+        color: #FFFFFF;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 110%;
+        padding-left: 5%;
+        padding-top: 3%;
+
+    }
+
+    #social {
+        padding-left: 7%;
+        padding-top: 3%;
+        width: 60%;
+    }
+
+    #design {
+        position: absolute;
+        width: 23%;
+        bottom: 0%;
+        left: 77.0%;
+        top: 50%;
+        padding-right: -20%;
+    }
+
+
+
+
+
+
+
+
 
 }
