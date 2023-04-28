@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -31,11 +32,11 @@ nav {
   background-color: #3c3a39;
   color: #fff;
 }
+
 #logo {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   color: white;
 }
-
 
 .hamberger-btn {
   background-color: #3c3a39;
@@ -51,14 +52,13 @@ nav {
 .section {
   background-color: #1c1a19;
   height: 100%;
-  
-
 }
 
 .container {
   position: relative;
   background: url(Img/illustration-header-mobile.png);
   background-repeat: no-repeat;
+
   /* background-position: right bottom; */
   background-position-y: 185px;
   background-attachment: fixed;
@@ -67,12 +67,10 @@ nav {
   padding-top: 10%;
   flex-grow: 1;
   height: 100vh;
- 
-  
 }
 
 #my_name {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 535%;
@@ -89,7 +87,7 @@ nav {
   color: #fff5e1;
   padding-left: 5%;
   padding-top: 3%;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
@@ -98,7 +96,7 @@ nav {
 
 #describe_me {
   color: #fff;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 90%;
@@ -116,12 +114,11 @@ nav {
   margin-top: 32px;
 }
 
-
-
 @media screen and (min-width: 768px) {
   .hamberger-btn {
     display: none;
   }
+
   .container {
     background-image: none;
   }
@@ -141,15 +138,11 @@ nav {
     background-size: 20%;
     background-position-y: bottom;
   }
-
-
 }
+
 @media screen and (min-width: 600px) {
   .container {
     background-size: 15%;
     background-position-y: bottom;
   }
-
-
 }
-
