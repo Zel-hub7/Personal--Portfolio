@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/08b4cd9ea0.js"
       crossorigin="anonymous"
@@ -13,12 +17,14 @@
   </head>
   <body>
     <header>
-      <nav class = "navigation">
+      <nav>
         <div class="logo-container">
-          <h3 id="logo">My Logo</h3>
+          <a href="#">
+            <h3 id="logo">My Logo</h3>
+          </a>
         </div>
         <label for="check" class="hamberger-btn">
-          <i id="ham" class="fas fa-bars"></i>
+          <a href="#"><i id="ham" class="fas fa-bars"></i></a>
         </label>
       </nav>
     </header>
@@ -27,7 +33,8 @@
       <div class="container">
         <div class="flex">
           <h1 id="my_name">
-            Hey There. <br />
+            Hey There.
+            <br />
             I'm Zola.
           </h1>
           <h4 id="title">I'm a software Developer</h4>
@@ -40,31 +47,25 @@
         <div class="flex social">
           <ul class="socialIcons">
             <li class="icons">
-              <a href="#"
-                ><img src="Img/twitterIcon.png" alt="Twitter"
-              /></a>
+              <a href="#"><img src="Img/GITHUB.png" alt="Github" /></a>
+            </li>
+            <li class="icons">
+              <a href="#"><img src="Img/Linkedin.png" alt="LinkedIn" /></a>
             </li>
             <li class="icons">
               <a href="#"
-                ><img src="Img/linkedinIcon.png" alt="LinkedIn"
+                ><img src="Img/Angellist-Icon.png" alt="AngelList"
               /></a>
             </li>
             <li class="icons">
-              <a href="#"><img src="Img/mediumIcon.png" alt="Medium" /></a>
+              <a href="#"><img src="Img/Twitter.png" alt="Twitter" /></a>
             </li>
             <li class="icons">
-              <a href="#"><img src="Img/githubIcon.png" alt="GitHub" /></a>
-            </li>
-            <li class="icons">
-              <a href="#"
-                ><img src="Img/angellistIcon.png" alt="AngelList"
-              /></a>
+              <a href="#"><img src="Img/M.png" alt="Medium" /></a>
             </li>
           </ul>
         </div>
-        <div class="flex">
-          <img id="design" src="./Img/illustration-header-mobile.png" alt="" />
-        </div>
+        <div id="design" class="flex"></div>
       </div>
     </section>
   </body>
