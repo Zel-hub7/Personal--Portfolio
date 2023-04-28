@@ -1,50 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/08b4cd9ea0.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/08b4cd9ea0.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Home Page</title>
-</head>
-<body>
-  <header>
-    <nav>
+  </head>
+  <body>
+    <header>
+      <nav>
         <div class="logo-container">
-            <h3>My Logo</h3>
-
+          <h3 id="logo">My Logo</h3>
         </div>
         <label for="check" class="hamberger-btn">
-            <i class="fas fa-bars"></i>
+          <i id="ham" class="fas fa-bars"></i>
         </label>
-    </nav>
-  </header>
+      </nav>
+    </header>
 
-  <section class = "section">
-    <div class = "container">
-      <div class ="flex">
-        <h1 id = "my_name">Hey There. <br> I'm Zola.</h1>
-        <h4 id ="title">I'm a software Developer</h4>
-        <p id ="describe_me">
-          I can help you build a product , feature 
-          or website Look through some of my work 
-          and experience! If you like what you see 
-          and have a project you need coded, don’t 
-          hesitate to contact me.
-        </p>
+    <section class="section">
+      <div class="container">
+        <div class="flex">
+          <h1 id="my_name">
+            Hey There. <br />
+            I'm Zola.
+          </h1>
+          <h4 id="title">I'm a software Developer</h4>
+          <p id="describe_me">
+            I can help you build a product , feature or website Look through
+            some of my work and experience! If you like what you see and have a
+            project you need coded, don’t hesitate to contact me.
+          </p>
+        </div>
+        <div class="flex social">
+          <ul class="socialIcons">
+            <li class="icons">
+              <a href="#"
+                ><img src="Img/twitterIcon.png" alt="Twitter"
+              /></a>
+            </li>
+            <li class="icons">
+              <a href="#"
+                ><img src="Img/linkedinIcon.png" alt="LinkedIn"
+              /></a>
+            </li>
+            <li class="icons">
+              <a href="#"><img src="Img/mediumIcon.png" alt="Medium" /></a>
+            </li>
+            <li class="icons">
+              <a href="#"><img src="Img/githubIcon.png" alt="GitHub" /></a>
+            </li>
+            <li class="icons">
+              <a href="#"
+                ><img src="Img/angellistIcon.png" alt="AngelList"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex">
+          <img id="design" src="./Img/illustration-header-mobile.png" alt="" />
+        </div>
       </div>
-      <div class ="flex">
-        <img id ="social" src="./Img/Social Media.png" alt="social-media logos">
-      </div>
-      <div class ="flex">
-        <img id ="design" src="./Img/illustration-header-mobile.png" alt="">
-      </div>
-      
-    </div>
-
-  </section>
-    
-
-</body>
+    </section>
+  </body>
 </html>
