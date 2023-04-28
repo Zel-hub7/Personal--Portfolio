@@ -1,8 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
   padding: 0;
   margin: 0;
-  background-color: #1c1a19;
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
@@ -30,7 +29,13 @@ nav {
 #logo,
 #ham {
   background-color: #3c3a39;
+  color: #fff;
 }
+#logo {
+  font-family: 'Roboto';
+  color: white;
+}
+
 
 .hamberger-btn {
   background-color: #3c3a39;
@@ -46,19 +51,31 @@ nav {
 .section {
   background-color: #1c1a19;
   height: 100%;
+  
+
 }
 
 .container {
-  padding-top: 15%;
+  position: relative;
+  background: url(Img/illustration-header-mobile.png);
+  background-repeat: no-repeat;
+  /* background-position: right bottom; */
+  background-position-y: 185px;
+  background-attachment: fixed;
+  background-size: 25%;
+  background-position: right bottom;
+  padding-top: 10%;
   flex-grow: 1;
   height: 100vh;
+ 
+  
 }
 
 #my_name {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 540%;
+  font-size: 535%;
   line-height: 64px;
   letter-spacing: 0.37px;
   color: #ff6b00;
@@ -72,19 +89,19 @@ nav {
   color: #fff5e1;
   padding-left: 5%;
   padding-top: 3%;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 32px;
 }
 
 #describe_me {
   color: #fff;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Poppins';
   font-weight: 400;
   font-style: normal;
-  font-size: 110%;
+  font-size: 90%;
   padding-left: 5%;
   padding-top: 3%;
 }
@@ -99,18 +116,14 @@ nav {
   margin-top: 32px;
 }
 
-#design {
-  position: absolute;
-  width: 23%;
-  bottom: 0%;
-  left: 77%;
-  top: 50%;
-  padding-right: -20%;
-}
+
 
 @media screen and (min-width: 768px) {
   .hamberger-btn {
     display: none;
+  }
+  .container {
+    background-image: none;
   }
 
   #my_name {
@@ -122,3 +135,21 @@ nav {
     float: right;
   }
 }
+
+@media screen and (min-width: 541px) {
+  .container {
+    background-size: 20%;
+    background-position-y: bottom;
+  }
+
+
+}
+@media screen and (min-width: 600px) {
+  .container {
+    background-size: 15%;
+    background-position-y: bottom;
+  }
+
+
+}
+
