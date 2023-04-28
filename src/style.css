@@ -1,7 +1,8 @@
-@media (max-width: 600px) {
+
   * {
     padding: 0;
     margin: 0;
+    background-color: #1c1a19;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
@@ -12,7 +13,7 @@
     position: absolute;
     height: 10%;
     width: 100%;
-    background: #3c3a39;
+    background-color: #3c3a39;
     display: flex;
     justify-content: space-between;
   }
@@ -20,12 +21,19 @@
   .logo-container {
     display: flex;
     align-items: center;
-    margin-left: 3%;
-    margin-top: 3%;
+    padding-top: 2.6%;
+    padding-left: 3%;
     color: #fff;
+    background-color: #3c3a39;
+    
+  }
+  #logo, #ham {
+    background-color: #3c3a39;;
   }
 
+
   .hamberger-btn {
+    background-color: #3c3a39;;
     display: block;
     font-size: 25px;
     color: white;
@@ -37,7 +45,7 @@
 
   .section {
     background-color: #1c1a19;
-    height: 100vh;
+    height: 100%;
   }
 
   .container {
@@ -80,12 +88,19 @@
     padding-left: 5%;
     padding-top: 3%;
   }
-
-  #social {
-    padding-left: 7%;
-    padding-top: 3%;
-    width: 60%;
+  .socialIcons {
+    display: flex;
+    padding-left: 8%;
+    align-items: center;
+    gap: 1.5em;
+    cursor: pointer;
+    list-style-type: none;
+    margin-top: 32px;
   }
+  
+
+
+  
 
   #design {
     position: absolute;
@@ -95,4 +110,20 @@
     top: 50%;
     padding-right: -20%;
   }
+@media screen and (min-width: 768px) {
+  .hamberger-btn {
+    display: none;
+  }
+  #my_name {
+    padding-top: 0%;
+  }
+  #design {
+    top: 35%;
+    float: right;
+  }
+
+
+
+  
+  
 }
