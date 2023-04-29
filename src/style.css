@@ -158,7 +158,6 @@ nav {
 .prof {
   padding-top: 40%;
   position: relative;
-  
 
   /* background: url(Img/Img\ Placeholder.png);
   background-repeat: no-repeat;
@@ -166,7 +165,7 @@ nav {
   background-position-y: 150px; */
 }
 .grid-element {
- padding-left: 20%px;
+  padding-left: 20%px;
 }
 #see-button {
   padding: 12px;
@@ -206,19 +205,17 @@ nav {
 }
 .lans li {
   padding: 50px;
-
 }
 #see_button {
   display: block;
   width: 100%;
   border: none;
-  background: #FF6B00;
+  background: #ff6b00;
   color: white;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
   text-align: center;
- 
 }
 /* .lans li {
   border: 1px solid rgba(255, 255, 255, 0.24);
@@ -228,21 +225,19 @@ nav {
   color: #fff;
 } */
 .about {
-  background: #1C1A19;
+  background: #1c1a19;
   background-image: none;
   height: 100vh;
-
 }
 #about_me {
-  font-family: 'Crete Round',sans-serif;
-  color:  #FF6B00;
+  font-family: "Crete Round", sans-serif;
+  color: #ff6b00;
   font-size: 350%;
   padding-left: 10%;
   padding-top: 10%;
-  
 }
 #describe_me_again {
-  font-family: 'Inter',sans-serif;
+  font-family: "Inter", sans-serif;
   padding-left: 10%;
   color: #fff;
   font-weight: 400;
@@ -259,9 +254,101 @@ nav {
   background-color: #ff6b00;
   color: #fff;
   border-color: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
+}
+.tools {
+  background-color: #1c1a19;
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+  padding-top: 10%;
+  padding-left: 10%;
+}
+.tool_grid {
+  display: grid;
+}
+.tool_grid_item {
+  color: white;
+}
+.tool_grid_item ul {
+  padding-left: 15%;
+}
+.tool_grid_item li {
+  padding: 10px;
+  font-family: "Inter", sans-serif;
+}
+.final {
+  height: 100vh;
+}
+.final_grid {
+  display: grid;
+  padding-left: 10%;
+  padding-top: 15%;
+}
+.final_grid_item {
+  grid-template-columns: fit-content(8ch) fit-content(8ch) 1fr;
+}
+.final_grid h3 {
+  font-family: "Inter", sans-serif;
+  color: #172b4d;
+  font-size: 170%;
+}
+.login-box {
+  padding-top: 15%;
+}
+.login-box .user-box input {
+  font-family: "Inter", sans-serif;
+  width: 90%;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+  outline: none;
+  background: transparent;
+}
+.login-box a:hover {
+  background-color: white;
+  color: #1c1a19;
+  border-radius: 0.5px;
+}
+.login-box a span {
+  position: absolute;
+  display: block;
+}
+.login-box a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+}
+#textarea {
+  font-family: "Inter", sans-serif;
+  padding-top: 2%;
+  padding-right: 30%;
+  background: #fbf8f7;
+  width: 90%;
+  line-height: 25px;
+  border: 0;
+}
+#touch {
+  font-size: 100%;
+  padding: 12px;
+  width: 55%;
+  background-color: #ff6B00;
+  color: #fff;
+  border-color: #ff6B00;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 3%;
+}
+.touch {
+  padding-top: 5%;
+  padding-left: 30%;
 }
 
+.ficons {
+  padding-left: 30%;
+
+}
 @media screen and (min-width: 768px) {
   .hamberger-btn {
     display: none;
