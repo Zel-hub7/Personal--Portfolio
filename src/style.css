@@ -266,16 +266,7 @@ nav {
   padding: 2%;
   margin-right: 15%;
   background-color: rgba(255, 255, 255, 0.24);
-
-  /* border-style: solid; */
-
-  /* border-spacing: 3%; */
-
-  /* border: 1px solid rgba(197, 201, 204,0.5); */
   margin-left: 0;
-
-
-  /* padding: 50px; */
 }
 
 #see_button {
@@ -346,23 +337,12 @@ nav {
   position: relative;
   background: url(Img/USEIT.png);
   background-repeat: no-repeat;
-
-  /* background-position: right bottom; */
-
-  /* background-position-y: 185px; */
   background-size: 35%;
   background-position: right bottom;
-
-  /* padding-top: 10%; */
-
-  /* flex-grow: 1; */
   height: 40%;
   margin-bottom: 5%;
 }
 
-
-
-/* Zolaa */
 .tools {
   background-color: #1c1a19;
   font-family: "Inter", sans-serif;
