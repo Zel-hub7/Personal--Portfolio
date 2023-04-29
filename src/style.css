@@ -155,6 +155,11 @@ nav {
 .see-button {
   padding-right: 64.4%;
 }
+.see-button:hover {
+  background-color: hsl(40, 100%, 94%);
+  border:solid #ff6B00;
+  color: #ff6B00;
+}
 .prof {
   padding-top: 40%;
   position: relative;
@@ -172,6 +177,11 @@ nav {
   background-color: #ff6b00;
   color: #fff;
   border-color: #ff6b00;
+}
+#see-button:hover {
+  background-color: hsl(40, 100%, 94%);
+  border:solid #ff6B00;
+  color: #ff6B00;
 }
 #prof_title {
   font-family: "Crete Round", sans-serif;
@@ -217,6 +227,11 @@ nav {
   cursor: pointer;
   text-align: center;
 }
+#see_button:hover {
+  background-color: hsl(40, 100%, 94%);
+  border:solid #ff6B00;
+  color: #ff6B00;
+}
 /* .lans li {
   border: 1px solid rgba(255, 255, 255, 0.24);
   padding: 10px;
@@ -255,6 +270,11 @@ nav {
   color: #fff;
   border-color: #ff6b00;
   font-family: "Inter", sans-serif;
+}
+#resume:hover {
+  background-color: hsl(40, 100%, 94%);
+  border:solid #ff6B00;
+  color: #ff6B00;
 }
 .tools {
   background-color: #1c1a19;
@@ -340,6 +360,11 @@ nav {
   font-family: "Inter", sans-serif;
   letter-spacing: 3%;
 }
+#touch:hover {
+  background-color: hsl(40, 100%, 94%);
+  border:solid #ff6B00;
+  color: #ff6B00;
+}
 .touch {
   padding-top: 5%;
   padding-left: 30%;
@@ -348,6 +373,14 @@ nav {
 .ficons {
   padding-left: 30%;
 
+}
+.dashed {
+  padding-top: 9%;
+  padding-left: 39%;
+  padding-bottom: 5%;
+}
+#dashed {
+  width: 45%;
 }
 @media screen and (min-width: 768px) {
   .hamberger-btn {
