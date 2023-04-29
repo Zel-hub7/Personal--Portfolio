@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /* stylings for navigation */
 nav {
   position: absolute;
@@ -119,13 +123,14 @@ nav {
   padding-bottom: 5%;
   padding-left: 9%;
   font-family: "Crete Round", sans-serif;
-  color: #091e42;
+  color: #1C1A19;
 }
 .grid-container {
   padding: 5px;
   display: grid;
   text-align: center;
   row-gap: 4%;
+
 }
 .grid-item {
   padding: 4px;
@@ -134,43 +139,61 @@ nav {
   padding-top: 9%;
   width: 85%;
 }
+.works {
+  background: none;
+  margin-left: -12px;
+}
 #dash {
+  width: 85%;
+  margin-left: 42px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+#paragraph-title {
+  font-size: 250%;
+  font-family: "Crete Round", sans-serif;
+  color: #091e42;
+  margin-left: -62px;
 }
 .skills {
   display: flex;
   justify-content: space-around;
-  padding-left: 3%;
+  padding-left: 5.5%;
+  padding-bottom: -15px;
+  width: 93%;
+  color: #091e42;
 }
 .skills li {
-  padding: 8px;
-  border-style: solid;
+  padding: 3.5%;
+  font-family: 'Inter', sans-serif;
+    /* border-style: solid; */
   border-spacing: 4%;
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid #8993a4;
 }
 #multi {
+  text-align: left;
   font-size: 105%;
   font-family: "Inter", sans-serif;
-  padding-left: 0%;
+  margin-left: 9%;
+  color: #091e42;
+  /* text-align: center; */
 }
 .see-button {
-  padding-right: 64.4%;
-}
-.see-button:hover {
-  background-color: hsl(40, 100%, 94%);
-  border:solid #ff6B00;
-  color: #ff6B00;
+  padding-right: 61%;
 }
 .prof {
-  padding-top: 40%;
-  position: relative;
-
+  padding-top: 25%;
+  color: #fff;
+  margin-left: 8%;
   /* background: url(Img/Img\ Placeholder.png);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: 150px; */
 }
 .grid-element {
-  padding-left: 20%px;
+  /* background-size: cover; */
+ /* padding-left: 40px; */
+ margin-left: 0%;
 }
 #see-button {
   padding: 12px;
@@ -186,7 +209,12 @@ nav {
 #prof_title {
   font-family: "Crete Round", sans-serif;
   font-size: 180%;
-  padding-left: 10%;
+  margin-left: -7%;
+}
+#see_button:hover {
+  background-color: hsl(40, 100%, 94%);
+  border:solid #ff6B00;
+  color: #ff6B00;
 }
 #pitems {
   font-family: "Inter", sans-serif;
@@ -195,14 +223,21 @@ nav {
 .para {
   padding-top: 4%;
   font-size: 100%;
-  padding-left: 10%;
+  margin-left: -7%;
 }
 .second-grid {
-  display: grid;
-  padding-left: 10%;
-  padding: 5px;
+  padding: 10%;
+  /* padding: 5p */
   display: grid;
   row-gap: 4%;
+  background-image: url(Img/Img\ Placeholder.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 93%;
+  /* height:; */
+
+
+
 }
 /* .lans {
    display: flex;
@@ -210,27 +245,44 @@ nav {
   padding-left: 3%;
 } */
 .lans {
-  padding-left: 10%;
+  /* padding-left: 10%;
+  margin-right: 3%;
   display: flex;
+  padding-bottom: 15px; */
+  display: flex;
+  margin-left: -7%;
+
+  /* margin-right: 100px; */
+  /* justify-content: space-between; */
+  padding-left: 1.5%;
+  padding-bottom: 15px;
 }
 .lans li {
-  padding: 50px;
+    font-family: 'Inter', sans-serif;
+  padding: 2%;
+  margin-right: 15%;
+  background-color:rgba(255, 255, 255,0.24);
+    /* border-style: solid; */
+  /* border-spacing: 3%; */
+  /* border: 1px solid rgba(197, 201, 204,0.5); */
+  margin-left: 0;
+  margin-right: 1;
+  /* padding: 50px; */
+
 }
+
 #see_button {
   display: block;
   width: 100%;
   border: none;
-  background: #ff6b00;
+  background: #FF6B00;
   color: white;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
   text-align: center;
-}
-#see_button:hover {
-  background-color: hsl(40, 100%, 94%);
-  border:solid #ff6B00;
-  color: #ff6B00;
+  width: 93%;
+ 
 }
 /* .lans li {
   border: 1px solid rgba(255, 255, 255, 0.24);
@@ -240,25 +292,30 @@ nav {
   color: #fff;
 } */
 .about {
-  background: #1c1a19;
+  margin-top: 30%;
+  padding-top: 20%;
+  background: #1C1A19;
   background-image: none;
   height: 100vh;
+
 }
 #about_me {
-  font-family: "Crete Round", sans-serif;
-  color: #ff6b00;
+  font-family: 'Crete Round',sans-serif;
+  color:  #FF6B00;
   font-size: 350%;
   padding-left: 10%;
   padding-top: 10%;
+  
 }
 #describe_me_again {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter',sans-serif;
   padding-left: 10%;
-  color: #fff;
+  color: #f4f5f7;
   font-weight: 400;
   font-size: 87%;
   padding-top: 4%;
   line-height: 125%;
+  width: 93%;
 }
 .resume {
   padding-left: 10%;
@@ -269,19 +326,38 @@ nav {
   background-color: #ff6b00;
   color: #fff;
   border-color: #ff6b00;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 #resume:hover {
   background-color: hsl(40, 100%, 94%);
   border:solid #ff6B00;
   color: #ff6B00;
 }
+#design2 {
+  position: relative;
+  background: url(Img/USEIT.png);
+  background-repeat: no-repeat;
+
+  /* background-position: right bottom; */
+  /* background-position-y: 185px; */
+  background-size: 35%;
+  background-position: right bottom;
+  /* padding-top: 10%; */
+  /* flex-grow: 1; */
+  height: 40%;
+  margin-bottom: 5%;
+}
+
+
+
+/* Zolaa */
 .tools {
   background-color: #1c1a19;
   font-family: "Inter", sans-serif;
   height: 100vh;
-  padding-top: 10%;
-  padding-left: 10%;
+  padding-top: 5%;
+  padding-left: 18%;
+  margin-bottom: 30%;
 }
 .tool_grid {
   display: grid;
@@ -302,12 +378,17 @@ nav {
 .final_grid {
   display: grid;
   padding-left: 10%;
-  padding-top: 15%;
+  margin-top: -15%;
+  
+  
 }
+
 .final_grid_item {
   grid-template-columns: fit-content(8ch) fit-content(8ch) 1fr;
 }
 .final_grid h3 {
+  justify-content: center;
+  align-items: center;
   font-family: "Inter", sans-serif;
   color: #172b4d;
   font-size: 170%;
@@ -343,6 +424,8 @@ nav {
 }
 #textarea {
   font-family: "Inter", sans-serif;
+  font-style: italic;
+  color: #3c3139;
   padding-top: 2%;
   padding-right: 30%;
   background: #fbf8f7;
@@ -371,7 +454,11 @@ nav {
 }
 
 .ficons {
+  
   padding-left: 30%;
+  
+ 
+  
 
 }
 .dashed {
@@ -399,6 +486,7 @@ nav {
     top: 35%;
     float: right;
   }
+  
 }
 
 @media screen and (min-width: 541px) {
@@ -406,6 +494,16 @@ nav {
     background-size: 20%;
     background-position-y: bottom;
   }
+  .ficons {
+    padding-top: 8%;
+  }
+  #design2 {
+    background-size: 23%;
+    background-position-y: bottom;
+  }
+  
+
+  
 }
 
 @media screen and (min-width: 600px) {
