@@ -70,10 +70,10 @@ nav {
 }
 
 #my_name {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 535%;
+  font-size: 350%;
   line-height: 64px;
   letter-spacing: 0.37px;
   color: #ff6b00;
@@ -90,7 +90,7 @@ nav {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 19px;
   line-height: 32px;
 }
 
@@ -99,9 +99,9 @@ nav {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 90%;
   padding-left: 5%;
   padding-top: 3%;
+  font-size: 87%;
 }
 
 .socialIcons {
