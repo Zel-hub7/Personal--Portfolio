@@ -1,0 +1,437 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* stylings for navigation */
+nav {
+  position: absolute;
+  height: 10%;
+  width: 100%;
+  background-color: #3c3a39;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  padding-top: 2.6%;
+  padding-left: 3%;
+  color: #fff;
+  background-color: #3c3a39;
+}
+
+#logo,
+#ham {
+  background-color: #3c3a39;
+  color: #fff;
+}
+
+#logo {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.hamberger-btn {
+  background-color: #3c3a39;
+  display: block;
+  font-size: 25px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.section {
+  background-color: #1c1a19;
+  height: 100%;
+}
+
+.container {
+  position: relative;
+  background: url(Img/illustration-header-mobile.png);
+  background-repeat: no-repeat;
+
+  /* background-position: right bottom; */
+  background-position-y: 185px;
+  background-size: 25%;
+  background-position: right bottom;
+  padding-top: 10%;
+  flex-grow: 1;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+#my_name {
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 350%;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  flex: none;
+  padding-top: 18%;
+  padding-left: 5%;
+  align-items: center;
+}
+
+#title {
+  color: #fff5e1;
+  padding-left: 5%;
+  padding-top: 3%;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 32px;
+}
+
+#describe_me {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 5%;
+  padding-top: 3%;
+  font-size: 87%;
+}
+
+.socialIcons {
+  display: flex;
+  padding-left: 8%;
+  align-items: center;
+  gap: 1.5em;
+  cursor: pointer;
+  list-style-type: none;
+  margin-top: 32px;
+}
+
+.works {
+  background-color: white;
+  padding-top: 25%;
+}
+.grid {
+  display: grid;
+}
+.works-flex {
+  display: flex;
+  padding: 5%;
+  flex-direction: column;
+  row-gap: 10px;
+  flex-grow: 1;
+}
+.my-recent-work {
+  padding-top: 30%;
+  font-size: 210%;
+}
+.my-work {
+  margin-top: 8.6%;
+}
+.recent-project-tech {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+.recent-project-tech-used {
+  padding: 3.5%;
+  font-family: "Inter", sans-serif;
+  border-spacing: 4%;
+  border: 1px solid #8993a4;
+}
+.recent-project-img {
+  padding-top: 18%;
+}
+.recent-project-note {
+  padding-top: 4%;
+}
+.recent-project-name {
+  padding-top: 4%;
+}
+
+.see-recent-project {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #ff6b00;
+  color: #fff;
+  border: none;
+}
+.prof-flex {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1%;
+  background-image: url(./Img/Img\ Placeholder.png);
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: 107.2%;
+  max-height: 30%;
+  width: 100%;
+  padding: 5%;
+  row-gap: 10px;
+  flex-grow: 1;
+}
+.name {
+  margin-top: 27%;
+  font-size: 200%;
+  color: #fff;
+  font-family: "Crete Round" sans-serif;
+  padding-left: 0.3%;
+}
+.name-data {
+  padding-top: 6%;
+  font-size: 200%;
+  color: #fff;
+  font-family: "Crete Round" sans-serif;
+  padding-left: 0.3%;
+}
+.project-note {
+  font-family: "Inter" sans-serif;
+  font-size: 19px;
+  color: #fff;
+  padding-left: 0.3%;
+}
+.see-project {
+  display: block;
+  border: none;
+  background: #ff6b00;
+  color: white;
+  padding: 14px 29px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+}
+.see {
+  margin-top: -5%;
+}
+
+.project-stack-used {
+  padding-top: 8.5%;
+  width: 80%;
+  display: flex;
+  padding-bottom: 15px;
+  justify-content: space-between;
+}
+
+.project-stack-used li {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.24);
+  border-spacing: 4%;
+}
+.about {
+  background-color: #1c1a19;
+}
+
+.about_me {
+  background: #1c1a19;
+  color: #fff;
+  background-image: url(img/USEIT.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  justify-content: center;
+  padding: 0 20px;
+  height: 100vh;
+  margin-top: 50px;
+}
+
+.about-title {
+  font-family: "Crete Round", serif;
+  color: #ff6b00;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+}
+
+.myNote {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+  margin-top: 30px;
+}
+
+.resume {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  background-color: #ff6b00;
+  color: #fff;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.get-my-resume:enabled {
+  color: #fff;
+  background-color: #f55800;
+}
+
+.get-my-resume:disabled {
+  color: #5b5957;
+  background-color: #f4f1f0;
+}
+
+.get-my-resume:hover:enabled {
+  color: #f55800;
+  background-color: #fff5e1;
+  border: 2px solid #f55800;
+}
+
+.get-my-resume:active:enabled {
+  background-color: #f55800;
+  color: #fff;
+}
+.contact-flex {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  row-gap: 10px;
+  flex-grow: 1;
+}
+.login-box {
+  padding-top: 15%;
+}
+
+.login-box .user-box input {
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+  outline: none;
+  background: transparent;
+}
+
+.login-box a:hover {
+  background-color: white;
+  color: #1c1a19;
+  border-radius: 0.5px;
+}
+
+.login-box a span {
+  position: absolute;
+  display: block;
+}
+
+.login-box a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+}
+#touch {
+    font-size: 100%;
+    padding: 12px;
+    width: 55%;
+    background-color: #ff6b00;
+    color: #fff;
+    border-color: #ff6b00;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 3%;
+  }
+  
+  #touch:hover {
+    background-color: hsl(40, 100%, 94%);
+    border: solid #ff6b00;
+    color: #ff6b00;
+  }
+  
+  .touch {
+    padding-top: 5%;
+    padding-left: 30%;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .f-dash {
+    border-color:  #DFE1E6;
+    margin-top: 50px;
+
+  }
+  .dashed {
+    padding-top: 25px;
+  }
+/* /Media query */
+@media screen and (min-width: 768px) {
+  .hamberger-btn {
+    display: none;
+  }
+
+  .container {
+    background-image: none;
+  }
+
+  #my_name {
+    padding-top: 0%;
+  }
+
+  #design {
+    top: 35%;
+    float: right;
+  }
+}
+.c-par {
+  font-size: 32px;
+  font-family: "Inter", sans-serif;
+}
+#textarea {
+  font-family: "Inter", sans-serif;
+  font-style: italic;
+  color: #3c3139;
+  padding-top: 2%;
+  text-justify: auto;
+  background: #fbf8f7;
+  width: 100%;
+  line-height: 25px;
+  border: 0;
+}
+.ficons {
+    padding-right: 40px;
+    padding-top: -10px;
+}
+
+@media screen and (min-width: 541px) {
+  .container {
+    background-size: 20%;
+    background-position-y: bottom;
+  }
+
+  .ficons {
+    padding-top: 8%;
+  }
+
+  #design2 {
+    background-size: 23%;
+    background-position-y: bottom;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    background-size: 15%;
+    background-position-y: bottom;
+  }
+}

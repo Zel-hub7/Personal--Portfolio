@@ -147,7 +147,7 @@ nav {
 
 .works {
   background: none;
-  align-items: flex-start;
+  margin-left: -12px;
 }
 
 #dash {
@@ -206,7 +206,7 @@ nav {
 
 #see-button {
   margin-top: 6.7px;
-  margin-left: -210px;
+  margin-left: -20px;
   padding: 10px;
   background-color: #ff6b00;
   color: #fff;
@@ -281,13 +281,7 @@ nav {
   color: #ff6b00;
 }
 
-.about {
-  margin-top: 30%;
-  padding-top: 20%;
-  background: #1c1a19;
-  background-image: none;
-  height: 100vh;
-}
+
 
 #about_me {
   font-family: 'Crete Round', sans-serif;
@@ -466,6 +460,13 @@ nav {
 #dashed {
   width: 45%;
 }
+input {
+  text-align: center;
+  
+}
+::webkit-input-placeholder {
+    text-align: start;
+}
 
 @media screen and (min-width: 768px) {
   .hamberger-btn {
@@ -507,4 +508,70 @@ nav {
     background-size: 15%;
     background-position-y: bottom;
   }
+}
+
+
+
+
+.projects {
+  margin: 30% 10px 10px 10px;
+}
+
+.recent-project-name {
+  font-family: "Crete Round", serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: left;
+  margin: 15px 0;
+}
+
+.recent-project-img {
+  width: 100%;
+  margin-top: 15%;
+}
+
+.recent-project {
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.name {
+  font-family: "Crete Round", serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  color: #fff;
+  padding-left: 15px;
+}
+
+.recent-project-note {
+  font-family: "Inter", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #091e42;
+  margin-bottom: 20px;
+}
+
+.recent-project-tech {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0;
+  list-style: none;
+}
+
+.recent-project-tech-used {
+  border: 1px solid #babfc9;
+  padding: 5px 12px;
+}
+
+.see-recent-project {
+  background-color: #ff6b00;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
 }
