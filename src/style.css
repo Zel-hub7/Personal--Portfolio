@@ -119,7 +119,7 @@ nav {
 }
 
 #recent {
-  font-size: 250%;
+  font-size: 230%;
   padding-top: 18.9%;
   padding-bottom: 5%;
   padding-left: 9%;
@@ -132,6 +132,7 @@ nav {
   display: grid;
   text-align: center;
   row-gap: 4%;
+  size: 10%;
 }
 
 .grid-item {
@@ -140,26 +141,31 @@ nav {
 
 #rImg {
   padding-top: 9%;
-  width: 85%;
+  padding-left: 4.5px;
+  width: 89%;
 }
 
 .works {
   background: none;
-  margin-left: -12px;
+  align-items: flex-start;
 }
 
 #dash {
   width: 85%;
-  margin-left: 42px;
-  margin-top: 20px;
+  margin-left: 34px;
+  margin-top: 26px;
   margin-bottom: 70px;
+  
 }
 
 #paragraph-title {
-  font-size: 250%;
+  font-size: 190%;
+  padding-right: 10%;
+  padding-top: 4%;
+  padding-bottom: 5%;
   font-family: "Crete Round", sans-serif;
   color: #091e42;
-  margin-left: -62px;
+  
 }
 
 .skills {
@@ -174,8 +180,6 @@ nav {
 .skills li {
   padding: 3.5%;
   font-family: 'Inter', sans-serif;
-
-  /* border-style: solid; */
   border-spacing: 4%;
   border: 1px solid #8993a4;
 }
@@ -186,34 +190,24 @@ nav {
   font-family: "Inter", sans-serif;
   margin-left: 9%;
   color: #091e42;
-
-  /* text-align: center; */
 }
 
-.see-button {
-  padding-right: 61%;
-}
 
 .prof {
   padding-top: 25%;
   color: #fff;
   margin-left: 8%;
-
-  /* background: url(Img/Img\ Placeholder.png);
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: 150px; */
 }
 
 .grid-element {
-  /* background-size: cover; */
-
-  /* padding-left: 40px; */
+ 
   margin-left: 0%;
 }
 
 #see-button {
-  padding: 12px;
+  margin-top: 6.7px;
+  margin-left: -210px;
+  padding: 10px;
   background-color: #ff6b00;
   color: #fff;
   border-color: #ff6b00;
