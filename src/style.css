@@ -460,13 +460,8 @@ nav {
 #dashed {
   width: 45%;
 }
-input {
-  text-align: center;
-  
-}
-::webkit-input-placeholder {
-    text-align: start;
-}
+
+
 
 @media screen and (min-width: 768px) {
   .hamberger-btn {

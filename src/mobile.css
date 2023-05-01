@@ -258,6 +258,9 @@ nav {
   font-size: 72px;
   line-height: 88px;
 }
+.cpar {
+  text-indent: 40px;
+}
 
 .myNote {
   font-family: "Inter", sans-serif;
@@ -374,6 +377,33 @@ nav {
   .dashed {
     padding-top: 25px;
   }
+  input {
+    padding: 4%;
+  }
+  input::-webkit-input-placeholder {
+    position: absolute;
+    padding-left: 0.5%;
+    bottom: 20px;
+  }
+  
+  input:-moz-placeholder {
+    position: absolute;
+    padding-left: 0.5%;
+    bottom: 20px;
+  }
+  
+  input::-ms-input-placeholder {
+    position: absolute;
+    padding-left: 0.5%;
+    bottom: 20px;
+  }
+  
+  input::-webkit-input-placeholder,
+  input:-moz-placeholder,
+  input::-ms-input-placeholder {
+    color: transparent;
+  }
+ 
 /* /Media query */
 @media screen and (min-width: 768px) {
   .hamberger-btn {
@@ -398,6 +428,7 @@ nav {
   font-family: "Inter", sans-serif;
 }
 #textarea {
+  position: relative;
   font-family: "Inter", sans-serif;
   font-style: italic;
   color: #3c3139;
@@ -412,6 +443,47 @@ nav {
     padding-right: 40px;
     padding-top: -10px;
 }
+.langes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tool_grid {
+  display: grid;
+  justify-content: center;
+  background-color: #1c1a19;
+}
+.tool_grid_item {
+  color: white;
+  padding-bottom: 30%;
+  justify-content: center;
+}
+
+.tool_grid_item li {
+  padding: 10px;
+  font-family: "Inter", sans-serif;
+}
+.langes {
+  padding-top: 40%;
+}
+#titles {
+  width: 80%;
+}
+.small-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.small-list li {
+  padding: 6%;
+  margin-left: -34%;
+}
+.frames {
+
+}
+
+
+
 
 @media screen and (min-width: 541px) {
   .container {
