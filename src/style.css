@@ -62,8 +62,6 @@ nav {
   position: relative;
   background: url(Img/illustration-header-mobile.png);
   background-repeat: no-repeat;
-
-  /* background-position: right bottom; */
   background-position-y: 185px;
   background-size: 25%;
   background-position: right bottom;
