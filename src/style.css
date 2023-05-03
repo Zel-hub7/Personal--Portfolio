@@ -538,6 +538,8 @@ input:-moz-placeholder {
 
 .card {
   display: flex;
+  background-color: white;
+  padding: 5%;
   flex-direction: column;
 }
 
@@ -574,6 +576,7 @@ input:-moz-placeholder {
  .nav-list {
   display: none;
  }
+ .desktop-img {display: none;}
 
 
 
@@ -638,6 +641,7 @@ input:-moz-placeholder {
 
   .container {
     background-image: none;
+    padding-top: 15%;
   }
 
   #my_name {
@@ -648,4 +652,60 @@ input:-moz-placeholder {
     top: 35%;
     float: right;
   }
+
+  .myNote {
+    width: 20%;
+  }
+  .first {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding-left: 1%;
+    margin-top: -11%;
+
+  }
+
+  .socialIcons {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1px;
+    justify-content: center;
+
+  }
+  img {
+    width: 30px;
+  }
+  .project-img {
+    display: none;
+  }
+  .container {
+  display: flex;
+  position: relative;
+  background: url(Img/Illustration-header@2x.png);
+  background-repeat: no-repeat;
+  background-size: 35%;
+  flex-grow: 1;
+  height: 100vh;
+  background-attachment: local;
+  background-position: right top;
+  background-position-y: 65px;
+  
+  }
+  .my_self {
+    padding-left: 3%;
+  }
+  .grid {
+    display: grid;
+  }
+
+
+  
+  
+  
+  
+ 
+
+  
 }
