@@ -472,25 +472,6 @@ input:-moz-placeholder {
   padding-top: 25px;
 }
 
-@media screen and (min-width: 768px) {
-  .hamberger-btn {
-    display: none;
-  }
-
-  .container {
-    background-image: none;
-  }
-
-  #my_name {
-    padding-top: 0%;
-  }
-
-  #design {
-    top: 35%;
-    float: right;
-  }
-}
-
 .c-par {
   font-family: "Inter", sans-serif;
   align-items: center;
@@ -589,6 +570,16 @@ input:-moz-placeholder {
   border-spacing: 4%;
 }
 
+@media screen and (min-width: 376px) {
+ .nav-list {
+  display: none;
+ }
+
+
+
+
+}
+
 @media screen and (min-width: 541px) {
   .container {
     background-size: 20%;
@@ -609,5 +600,52 @@ input:-moz-placeholder {
   .container {
     background-size: 15%;
     background-position-y: bottom;
+  }
+}
+/* Style for desktop size */
+@media screen and (min-width: 768px) { 
+  .nav-list {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    height: 0vh;
+    top: 85px;
+    background: #3c3139;
+    
+  }
+  .nav-list li {
+    line-height: 1;
+    margin-top: 2%;
+    margin-right: 5%;
+
+  }
+  .nav-list li a {
+    color: white;
+    font-size: 20px;
+  }
+  .logo-container {
+    padding-left: 4%;
+    margin-bottom: 2%;
+    width: 30%;
+
+  }
+  
+  
+  
+  .hamberger-btn {
+    display: none;
+  }
+
+  .container {
+    background-image: none;
+  }
+
+  #my_name {
+    padding-top: 0%;
+  }
+
+  #design {
+    top: 35%;
+    float: right;
   }
 }
