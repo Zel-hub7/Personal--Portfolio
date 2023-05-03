@@ -196,7 +196,7 @@ nav {
   color: #ff6b00;
 }
 
-.prof-flex {
+/* .prof-flex {
   display: flex;
   flex-direction: column;
   background-image: url(./Img/Img\ Placeholder.png);
@@ -208,7 +208,7 @@ nav {
   padding: 5%;
   row-gap: 10px;
   flex-grow: 1;
-}
+} */
 
 .name {
   margin-top: 27%;
@@ -616,6 +616,9 @@ input:-moz-placeholder {
     background: #3c3139;
     
   }
+  body {
+    background-color: white;
+  }
   .nav-list li {
     line-height: 1;
     margin-top: 2%;
@@ -642,6 +645,7 @@ input:-moz-placeholder {
   .container {
     background-image: none;
     padding-top: 15%;
+ 
   }
 
   #my_name {
@@ -697,15 +701,44 @@ input:-moz-placeholder {
     padding-left: 3%;
   }
   .grid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+  }
+  .card {
     display: grid;
+    grid-gap: 18px;
+    background-color: white;
+    grid-template-columns: 33% 33% 33%;
+    padding-top: 14%;
+  }
+  .projects-done {
+    height: 60%;
+  }
+  .name {
+    color: black;
   }
 
 
-  
-  
-  
-  
- 
+  .projects-done-1 {
+    background-image: url(./Img/1placeholder.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .projects-done-2 {
+    background-image: url(./Img/2\ placeholder.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 
-  
+  }
+  .projects-done-2 {
+    display: flex;
+  }
+  .projects-done-3 {
+    background-image: url(./Img/3\ placeholder.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
 }
