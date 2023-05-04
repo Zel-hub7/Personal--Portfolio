@@ -808,7 +808,43 @@ input:-moz-placeholder {
     flex-direction: row;
     align-items: flex-start;
     margin-top: -20%;
-    column-gap:  90px;
+    margin-left: -6%;
+    
 
+  }
+  .tool_grid_item  {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+  }
+  .small-list {
+    display: flex;
+    align-items: flex-start;
+    width: 150%;
+    padding-left: 50%;
+  
+  }
+  .contact-flex {
+    display: flex;
+    column-gap: 5%;
+    flex-direction: row;
+    margin-top: -8%;
+  }
+  .c-par {
+    width: 50%;
+    padding-top: 15%;
+  }
+  .login-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+ .touch {
+  display: none;
+ }
+  #touch {
+     margin-top: 3%;
+     width: 25%;
+     
   }
 }
