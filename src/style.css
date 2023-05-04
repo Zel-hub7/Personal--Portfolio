@@ -847,4 +847,27 @@ input:-moz-placeholder {
      width: 25%;
      
   }
+  .footer {
+ 
+   
+  }
+  .ficons {
+    
+
+  }
+  
+  .socialIcons {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 15px;
+  }
+  .icons img {
+    width: 100%;
+  }
+  .dashed {
+    display: none;
+  }
+  .f-dash {
+    margin-top: 8%;
+  }
 }
