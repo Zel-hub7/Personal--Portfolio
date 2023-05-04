@@ -497,12 +497,7 @@ input:-moz-placeholder {
   padding-top: -10px;
 }
 
-.langes {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 40%;
-}
+
 
 .tool_grid {
   display: grid;
@@ -573,14 +568,21 @@ input:-moz-placeholder {
 }
 
 @media screen and (min-width: 376px) {
- .nav-list {
-  display: none;
- }
- .desktop-img {display: none;}
-
-
-
-
+  .nav-list {
+    display: none;
+  }
+  .desktop-img {
+    display: none;
+  }
+  .desktop-grid {
+    display: none;
+  }
+  .langes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40%;
+  }
 }
 
 @media screen and (min-width: 541px) {
@@ -606,7 +608,7 @@ input:-moz-placeholder {
   }
 }
 /* Style for desktop size */
-@media screen and (min-width: 768px) { 
+@media screen and (min-width: 768px) {
   .nav-list {
     display: flex;
     justify-content: right;
@@ -614,7 +616,6 @@ input:-moz-placeholder {
     height: 0vh;
     top: 85px;
     background: #3c3139;
-    
   }
   body {
     background-color: white;
@@ -623,7 +624,6 @@ input:-moz-placeholder {
     line-height: 1;
     margin-top: 2%;
     margin-right: 5%;
-
   }
   .nav-list li a {
     color: white;
@@ -633,11 +633,8 @@ input:-moz-placeholder {
     padding-left: 4%;
     margin-bottom: 2%;
     width: 30%;
-
   }
-  
-  
-  
+
   .hamberger-btn {
     display: none;
   }
@@ -645,7 +642,9 @@ input:-moz-placeholder {
   .container {
     background-image: none;
     padding-top: 15%;
- 
+  }
+  .contain {
+    display: none;
   }
 
   #my_name {
@@ -668,7 +667,6 @@ input:-moz-placeholder {
     width: 50%;
     padding-left: 1%;
     margin-top: -11%;
-
   }
 
   .socialIcons {
@@ -676,7 +674,6 @@ input:-moz-placeholder {
     flex-direction: column;
     row-gap: 1px;
     justify-content: center;
-
   }
   img {
     width: 30px;
@@ -685,17 +682,16 @@ input:-moz-placeholder {
     display: none;
   }
   .container {
-  display: flex;
-  position: relative;
-  background: url(Img/Illustration-header@2x.png);
-  background-repeat: no-repeat;
-  background-size: 35%;
-  flex-grow: 1;
-  height: 100vh;
-  background-attachment: local;
-  background-position: right top;
-  background-position-y: 65px;
-  
+    display: flex;
+    position: relative;
+    background: url(Img/Illustration-header@2x.png);
+    background-repeat: no-repeat;
+    background-size: 35%;
+    flex-grow: 1;
+    height: 100vh;
+    background-attachment: local;
+    background-position: right top;
+    background-position-y: 65px;
   }
   .my_self {
     padding-left: 3%;
@@ -704,33 +700,39 @@ input:-moz-placeholder {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    
   }
   .card {
     display: grid;
-    grid-gap: 18px;
+    align-items: space-around;
+    justify-content: space-between;
+    grid-gap: 2%;
+    padding: 40px;
     background-color: white;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 30% 30% 30%;
     padding-top: 14%;
   }
   .projects-done {
-    height: 60%;
+    display: flex;
+    flex-direction: column;
   }
   .name {
     color: black;
   }
-
+  .name-data {
+    padding-top: 40px;
+  }
 
   .projects-done-1 {
     background-image: url(./Img/1placeholder.png);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 75%;
   }
   .projects-done-2 {
     background-image: url(./Img/2\ placeholder.png);
     background-size: cover;
     background-repeat: no-repeat;
-
+    height: 75%;
   }
   .projects-done-2 {
     display: flex;
@@ -739,6 +741,74 @@ input:-moz-placeholder {
     background-image: url(./Img/3\ placeholder.png);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 75%;
+  }
+  .projects-done-4 {
+    background-image: url(./Img/4\ placeholder.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75%;
+  }
+  .projects-done-5 {
+    background-image: url(./Img/2\ placeholder.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75%;
+  }
+  .projects-done-6 {
+    background-image: url(./Img/3\ placeholder.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75%;
+  }
+  .project-note {
+    font-family: "Inter", sans-serif;
+    font-size: 90%;
+    line-height: 105%;
+    padding-top: 15%;
+  }
+  .name {
+    font-size: 150%;
+    margin-top: -15%;
+    padding-top: 40%;
+  }
+  .project-tools {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 15%;
+    padding-left: 15px;
+    width: 20%;
+  }
+  .project-tools li {
+    padding: 7px;
+    font-size: 65%;
+    width: 160%;
+  }
+  .see-none {
+    display: none;
+  }
+  .about_me {
+    background: none;
+  }
+
+  .about_me {
+    background: url(Img/illustration-about\ me@2x.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 40%;
+  }
+  .myNote {
+    width: 50%;
+  }
+  .about-title {
+    padding-top: 15%;
+  }
+  .langes {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: -20%;
+    column-gap:  90px;
 
   }
 }
