@@ -895,20 +895,28 @@ input:-moz-placeholder {
  .touch {
   display: none;
  }
-  #touch {
+
+ .in-touch {
      margin-top: 3%;
      width: 25%;
-     
-  }
-  .footer {
- 
-   
-  }
-  .ficons {
-    
+     font-size: 100%;
+  padding: 12px;
+  width: 140px;
+  background-color: #ff6b00;
+  color: #fff;
+  border-color: #ff6b00;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 3%;
+  border: none;
+       
+}
 
-  }
-  
+#in-touch:hover {
+  background-color: hsl(40, 100%, 94%);
+  border: solid #ff6b00;
+  color: #ff6b00;
+}
+   
   .footer-icons {
     display: flex;
     flex-direction: row;
@@ -958,8 +966,11 @@ input:-moz-placeholder {
     padding-top: 10%;
     padding-left: 7%;
   }
-  #desk-dash {
-    margin-left: -30%;
+  .desk-dash {
+    margin-left: 0%;
+  }
+  .contain {
+    background-color: white
   }
 
 }
