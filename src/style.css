@@ -413,7 +413,7 @@ input:-moz-placeholder {
   font-family: "Inter", sans-serif;
   width: 100%;
   font-size: 16px;
-  color: #fff;
+  color: #000000;
   margin-bottom: 30px;
   border: none;
   border-bottom: 1px solid #dbd8d7;
@@ -597,6 +597,26 @@ input:-moz-placeholder {
   .desktop-touch {
     display: none;
   }
+  .in-touch {
+    display: none;
+  }
+  .projects-done-6 {
+    padding-top: 34%;
+    height: 100%;
+  }
+  .projects-done-3 {
+    padding-top: 34%;
+    height: 100%;
+  }
+  .projects-done-1 {
+    background-image: url(./Img/1placeholder.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid #1c1a19;
+    border-width: 1.5px;
+    height: 100%;
+    padding-top: 80%;
+  }
 }
 
 @media screen and (min-width: 541px) {
@@ -747,21 +767,11 @@ input:-moz-placeholder {
 
   .my-work {
     margin-bottom: 80px;
-    margin-top: 25px;
+    margin-top: 19.3px;
     margin-left: 285px;
     border: 1px solid #212121;
   }
 
-  /* .card {
-    display: grid;
-    align-items: space-around;
-    justify-content: space-between;
-    grid-gap: 2%;
-    padding: 40px;
-    background-color: white;
-    grid-template-columns: 30% 30% 30%;
-    padding-top: 14%;
-  } */
   .projects-done {
     display: flex;
     flex-direction: column;
@@ -840,8 +850,6 @@ input:-moz-placeholder {
     width: 10%;
     padding: 0;
     padding-left: 6px;
-
-    /* gap: 12px; */
   }
 
   .project-stack ul li {
@@ -939,11 +947,12 @@ input:-moz-placeholder {
     border: none;
   }
 
-  #in-touch:hover {
+  .in-touch:hover {
     background-color: hsl(40, 100%, 94%);
     border: solid #ff6b00;
     color: #ff6b00;
   }
+  
 
   .footer-icons {
     display: flex;
