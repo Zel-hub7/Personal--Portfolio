@@ -245,27 +245,23 @@
             <div class="login-box">
                <form action="">
                   <div class="user-box">
-                     <input type="text" name="" placeholder="Full name" required="" />
-                     <label></label>
+                     <label for="name"></label>
+                     <input type="text" name="" placeholder="Full name" maxlength="30" required="" />   
                   </div>
                   <div class="user-box">
-                     <input type="email" name="" placeholder="Email address" required="" />
-                     <label></label>
+                     <label for="email"></label>
+                     <input type="email" name="" placeholder="Email address" required="" /> 
                   </div>
-                  <a href="#">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  </a>
+                  <div class="final_grid_item textarea">
+                     <textarea id="textarea" rows="4" cols="50" maxlength="500" name="comment"
+                        form="usrform" placeholder="Write me something...">   Write me something...</textarea>
+                  </div>
+                  <div class="touch">
+                     <button id="touch" type="submit">Get in touch</button>
+                  </div>
+                  <button class ="in-touch" type="submit">Get in touch</button>
                </form>
-               <div class="final_grid_item textarea">
-                  <textarea id="textarea" rows="4" cols="50" name="comment"
-                     form="usrform">   Write me something...</textarea>
-               </div>
-               <div class="touch">
-                  <button id="touch" type="button">Get in touch</button>
-               </div>
-               <button class ="in-touch" type="button">Get in touch</button>
+               
       
             </div>
          </div>
