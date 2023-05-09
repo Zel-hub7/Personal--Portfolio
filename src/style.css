@@ -408,7 +408,7 @@ input:-moz-placeholder {
   font-family: "Inter", sans-serif;
   width: 100%;
   font-size: 16px;
-  color: #000000;
+  color: #fff;
   margin-bottom: 30px;
   border: none;
   border-bottom: 1px solid #dbd8d7;
