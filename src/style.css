@@ -141,7 +141,7 @@ nav {
 }
 
 .recently {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   padding-top: 20%;
   font-size: 210%;
   color: #1c1a19;
@@ -159,7 +159,7 @@ nav {
 
 .recent-lists {
   padding: 3.5%;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   border-spacing: 4%;
   color: #091e42;
   border: 1px solid #8993a4;
@@ -171,18 +171,18 @@ nav {
 
 .multi-note {
   padding-top: 4%;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #091e42;
 }
 
 .multi {
   padding-top: 4%;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #091e42;
 }
 
 .see-recent-project {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   margin-top: 10px;
   padding: 10px;
   background-color: #ff6b00;
@@ -214,7 +214,7 @@ nav {
   margin-top: 27%;
   font-size: 200%;
   color: #fff;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   padding-left: 0.3%;
 }
 
@@ -231,7 +231,7 @@ nav {
 }
 
 .project-note {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 19px;
   padding-top: 4%;
   color: #fff;
@@ -240,7 +240,7 @@ nav {
 }
 
 .see-project {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   border: none;
   background: #ff6b00;
   color: white;
@@ -249,6 +249,11 @@ nav {
   cursor: pointer;
   text-align: center;
   width: 100%;
+}
+
+textarea {
+  font-family: "Inter", sans-serif;
+  padding: 3%;
 }
 
 .see-project:hover {
@@ -408,7 +413,7 @@ input:-moz-placeholder {
   font-family: "Inter", sans-serif;
   width: 100%;
   font-size: 16px;
-  color: #fff;
+  color: #000;
   margin-bottom: 30px;
   border: none;
   border-bottom: 1px solid #dbd8d7;
@@ -434,6 +439,11 @@ input:-moz-placeholder {
   height: 2px;
 }
 
+.touch {
+  padding-top: 5%;
+  padding-left: 30%;
+}
+
 #touch {
   font-size: 100%;
   padding: 12px;
@@ -452,9 +462,14 @@ input:-moz-placeholder {
   color: #ff6b00;
 }
 
-.touch {
-  padding-top: 5%;
-  padding-left: 30%;
+#touch:enabled {
+  color: #fff;
+  background-color: #f55800;
+}
+
+#touch:disabled {
+  color: #5b5957;
+  background-color: #f4f1f0;
 }
 
 .footer {
