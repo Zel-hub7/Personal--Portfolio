@@ -250,10 +250,12 @@ nav {
   text-align: center;
   width: 100%;
 }
+
 textarea {
-  font-family: "Inter" sans-serif;
+  font-family: "Inter", sans-serif;
   padding: 3%;
 }
+
 .see-project:hover {
   background-color: hsl(40, 100%, 94%);
   border: solid #ff6b00;
@@ -411,7 +413,7 @@ input:-moz-placeholder {
   font-family: "Inter", sans-serif;
   width: 100%;
   font-size: 16px;
-  color: #000000;
+  color: #000;
   margin-bottom: 30px;
   border: none;
   border-bottom: 1px solid #dbd8d7;
@@ -436,6 +438,7 @@ input:-moz-placeholder {
   width: 100%;
   height: 2px;
 }
+
 .touch {
   padding-top: 5%;
   padding-left: 30%;
@@ -458,6 +461,7 @@ input:-moz-placeholder {
   border: solid #ff6b00;
   color: #ff6b00;
 }
+
 #touch:enabled {
   color: #fff;
   background-color: #f55800;
