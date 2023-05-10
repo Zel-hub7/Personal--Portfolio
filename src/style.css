@@ -159,14 +159,9 @@ nav {
 }
 
 .recent-lists {
-<<<<<<< HEAD
   padding: 1%;
   font-family: "Inter", sans-serif;
   font-size: 13px;
-=======
-  padding: 3.5%;
-  font-family: "Inter", sans-serif;
->>>>>>> 2143a864964a2476016703ee830557b9cc964ded
   border-spacing: 4%;
   color: #091e42;
   border: 1px solid #8993a4;
@@ -178,32 +173,20 @@ nav {
 }
 
 .multi-note {
-<<<<<<< HEAD
   padding-top: 6%;
-=======
-  padding-top: 4%;
->>>>>>> 2143a864964a2476016703ee830557b9cc964ded
   font-family: "Inter", sans-serif;
   color: #091e42;
 }
 
 .multi {
-<<<<<<< HEAD
   font-size: 22px;
   font-family: "Crete Round", sans-serif;
-=======
-  padding-top: 4%;
-  font-family: "Inter", sans-serif;
->>>>>>> 2143a864964a2476016703ee830557b9cc964ded
   color: #091e42;
 }
 
 .see-recent-project {
   font-family: "Inter", sans-serif;
-<<<<<<< HEAD
   font-size: 11px;
-=======
->>>>>>> 2143a864964a2476016703ee830557b9cc964ded
   margin-top: 10px;
   padding: 10px;
   background-color: #ff6b00;
