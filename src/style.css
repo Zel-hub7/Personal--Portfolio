@@ -462,10 +462,12 @@ input:-moz-placeholder {
   padding-left: 30%;
 }
 
+
 .footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+ 
 }
 
 .f-dash {
@@ -570,11 +572,18 @@ input:-moz-placeholder {
   border-spacing: 4%;
 }
 
+
 @media screen and (min-width: 375px) {
   .nav-list {
     display: none;
   }
-
+  .touched {
+    display: none;
+  }
+  #lname {
+    display: none;
+  }
+  
   .desktop-img {
     display: none;
   }
@@ -589,15 +598,15 @@ input:-moz-placeholder {
     align-items: center;
     padding-top: 40%;
   }
+  .desktop-login {
+    display: none;
+  }
 
   .desktop-title {
     display: none;
   }
 
   .desktop-touch {
-    display: none;
-  }
-  .in-touch {
     display: none;
   }
   .projects-done-6 {
@@ -651,6 +660,20 @@ input:-moz-placeholder {
     height: 0;
     top: 85px;
     background: #3c3139;
+  }
+  #lname {
+    display: block;
+  }
+  .login-box {
+    display: none;
+  }
+  .user-box {
+    display: flex;
+    column-gap: 2%;
+  }
+  textarea {
+    font-family: 'Inter' sans-serif;
+    padding: 15px;
   }
 
   body {
@@ -932,8 +955,9 @@ input:-moz-placeholder {
   .touch {
     display: none;
   }
-
-  .in-touch {
+ 
+  .touched{
+    display: block;
     margin-top: 3%;
     width: 25%;
     font-size: 100%;
@@ -947,7 +971,7 @@ input:-moz-placeholder {
     border: none;
   }
 
-  .in-touch:hover {
+  #in-touch:hover {
     background-color: hsl(40, 100%, 94%);
     border: solid #ff6b00;
     color: #ff6b00;
@@ -1014,6 +1038,12 @@ input:-moz-placeholder {
 
   .desk-dash {
     margin-left: 0%;
+    width: 150%;
+    border-top: #8c8b8b;
+
+  }
+  .ficons {
+    margin-top: -158px;
   }
 
   .contain {
