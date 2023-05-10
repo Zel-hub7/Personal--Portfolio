@@ -822,15 +822,17 @@ input:-moz-placeholder {
     font-size: 150%;
     margin-left: -2.2%;
   }
+
   .recent-project-tech {
     display: flex;
     column-gap: 25%;
     width: 10%;
-    padding: 0;   
+    padding: 0;
   }
+
   .recent-project-tech li {
     font-family: 'Inter', sans-serif;
-    color: #091E42;
+    color: #091e42;
     margin: 2px;
     padding: 12px;
     font-size: 14px;
