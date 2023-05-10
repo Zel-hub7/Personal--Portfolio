@@ -156,6 +156,7 @@ nav {
   display: flex;
   padding-top: 15px;
 }
+
 .recent-project-tech li {
   margin-right: 10px;
   font-family: "Inter", sans-serif;
@@ -619,12 +620,15 @@ input:-moz-placeholder {
   .desktop-touch {
     display: none;
   }
+
   .multi {
     padding-top: 5%;
   }
+
   .multi-note {
     margin-top: -3%;
   }
+
   .projects-done-6 {
     padding-top: 34%;
     height: 100%;
@@ -689,6 +693,7 @@ input:-moz-placeholder {
   .login-box {
     display: none;
   }
+
   .multi {
     margin-top: -5%;
   }
