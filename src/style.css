@@ -596,7 +596,9 @@ input:-moz-placeholder {
     display: flex;
     flex-direction: column;
     align-items: center;
+  
     padding-top: 40%;
+    
   }
   .desktop-login {
     display: none;
@@ -675,7 +677,7 @@ input:-moz-placeholder {
   }
   textarea {
     font-family: 'Inter' sans-serif;
-    padding: 15px;
+    padding:px;
   }
 
   body {
@@ -789,6 +791,7 @@ input:-moz-placeholder {
     margin-top: -150px;
     margin-left: -2.1%;
   }
+ 
 
   .my-work {
     margin-bottom: 80px;
@@ -920,7 +923,7 @@ input:-moz-placeholder {
     flex-direction: row;
     align-items: flex-start;
     margin-top: -20%;
-    margin-left: -6%;
+    margin-left: -2%;
   }
 
   .tool_grid_item {
@@ -973,7 +976,8 @@ input:-moz-placeholder {
     border: none;
   }
 
-  #in-touch:hover {
+
+  .touched:hover {
     background-color: hsl(40, 100%, 94%);
     border: solid #ff6b00;
     color: #ff6b00;
@@ -1050,5 +1054,19 @@ input:-moz-placeholder {
 
   .contain {
     background-color: white;
+    display: flex;
+    justify-content: flex-start;
   }
-}
+  .login-box .user-box input {
+    margin-left: -10px;
+  }
+
+  .inner {
+    display: flex;
+    flex-direction: column;
+  
+  }
+ 
+
+  } 
+
