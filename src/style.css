@@ -201,7 +201,6 @@ nav {
   color: #ff6b00;
 }
 
-
 .name {
   margin-top: 27%;
   font-size: 200%;
@@ -400,7 +399,7 @@ input:-moz-placeholder {
   font-family: "Inter", sans-serif;
   width: 100%;
   font-size: 16px;
-  color: #000000;
+  color: #000;
   margin-bottom: 30px;
   border: none;
   border-bottom: 1px solid #dbd8d7;
@@ -449,12 +448,10 @@ input:-moz-placeholder {
   padding-left: 30%;
 }
 
-
 .footer {
   display: flex;
   flex-direction: column;
   align-items: center;
- 
 }
 
 .f-dash {
@@ -559,18 +556,19 @@ input:-moz-placeholder {
   border-spacing: 4%;
 }
 
-
 @media screen and (min-width: 375px) {
   .nav-list {
     display: none;
   }
+
   .touched {
     display: none;
   }
+
   #lname {
     display: none;
   }
-  
+
   .desktop-img {
     display: none;
   }
@@ -583,10 +581,9 @@ input:-moz-placeholder {
     display: flex;
     flex-direction: column;
     align-items: center;
-  
     padding-top: 40%;
-    
   }
+
   .desktop-login {
     display: none;
   }
@@ -598,14 +595,17 @@ input:-moz-placeholder {
   .desktop-touch {
     display: none;
   }
+
   .projects-done-6 {
     padding-top: 34%;
     height: 100%;
   }
+
   .projects-done-3 {
     padding-top: 34%;
     height: 100%;
   }
+
   .projects-done-1 {
     background-image: url(./Img/1placeholder.png);
     background-size: cover;
@@ -652,19 +652,23 @@ input:-moz-placeholder {
     top: 85px;
     background: #3c3139;
   }
+
   #lname {
     display: block;
   }
+
   .login-box {
     display: none;
   }
+
   .user-box {
     display: flex;
     column-gap: 2%;
   }
+
   textarea {
-    font-family: 'Inter' sans-serif;
-    padding:px;
+    font-family: 'Inter', sans-serif;
+    padding: px;
   }
 
   body {
@@ -675,7 +679,6 @@ input:-moz-placeholder {
     line-height: 1;
     margin-top: 2%;
     margin-right: 5%;
-    
   }
 
   .nav-list li a {
@@ -692,11 +695,6 @@ input:-moz-placeholder {
 
   .hamberger-btn {
     display: none;
-  }
-
-  .container {
-    background-image: none;
-    padding-top: 15%;
   }
 
   .card {
@@ -746,7 +744,12 @@ input:-moz-placeholder {
     display: none;
   }
 
+  .c1 {
+    background-image: none;
+  }
+
   .container {
+    padding-top: 15%;
     display: flex;
     position: relative;
     background: url(Img/Illustration-header@2x.png);
@@ -773,7 +776,7 @@ input:-moz-placeholder {
   }
 
   .recently {
-    font-family: 'Crete Round',sans-serif;
+    font-family: 'Crete Round', sans-serif;
     flex: none;
     color: #1c1a19;
     margin: 0;
@@ -781,7 +784,6 @@ input:-moz-placeholder {
     margin-top: -150px;
     margin-left: -2.1%;
   }
- 
 
   .my-work {
     margin-bottom: 80px;
@@ -814,7 +816,7 @@ input:-moz-placeholder {
     height: 100%;
   }
 
-  .projects-done-2 {
+  .pro-2 {
     background-image: url(./Img/2\ placeholder.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -877,7 +879,6 @@ input:-moz-placeholder {
     color: #fff;
     font-size: 12px;
     font-weight: 500;
-    font-family: 'Inter', sans-serif;
     font-style: normal;
   }
 
@@ -891,16 +892,13 @@ input:-moz-placeholder {
 
   .about_me {
     background: none;
-  }
-
-  .about_me {
     background: url(Img/illustration-about\ me@2x.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: 40%;
   }
 
-  .myNote {
+  .my-notes {
     width: 50%;
   }
 
@@ -941,7 +939,7 @@ input:-moz-placeholder {
     padding-top: 15%;
   }
 
-  .login-box {
+  .boxes {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -950,11 +948,10 @@ input:-moz-placeholder {
   .touch {
     display: none;
   }
- 
-  .touched{
+
+  .touched {
     display: block;
     margin-top: 3%;
-    width: 25%;
     font-size: 100%;
     padding: 12px;
     width: 140px;
@@ -966,13 +963,26 @@ input:-moz-placeholder {
     border: none;
   }
 
-
   .touched:hover {
     background-color: hsl(40, 100%, 94%);
     border: solid #ff6b00;
     color: #ff6b00;
   }
-  
+
+  .touched:enabled {
+    color: #fff;
+    background-color: #f55800;
+  }
+
+  .touched:disabled {
+    color: #5b5957;
+    background-color: #f4f1f0;
+  }
+
+  .touched:active:enabled {
+    background-color: #f55800;
+    color: #fff;
+  }
 
   .footer-icons {
     display: flex;
@@ -1022,7 +1032,6 @@ input:-moz-placeholder {
     margin-left: -8%;
   }
 
-
   .desk {
     display: flex;
     flex-direction: row;
@@ -1036,8 +1045,8 @@ input:-moz-placeholder {
     margin-left: 0%;
     width: 150%;
     border-top: #8c8b8b;
-
   }
+
   .ficons {
     margin-top: -158px;
   }
@@ -1047,6 +1056,7 @@ input:-moz-placeholder {
     display: flex;
     justify-content: flex-start;
   }
+
   .login-box .user-box input {
     margin-left: -10px;
   }
@@ -1054,9 +1064,5 @@ input:-moz-placeholder {
   .inner {
     display: flex;
     flex-direction: column;
-  
   }
- 
-
-  } 
-
+}
