@@ -227,6 +227,7 @@ nav {
 .project-note {
   font-family: "Inter", sans-serif;
   font-size: 17px;
+  line-height: 24px;
   padding-top: 4%;
   color: #fff;
   padding-left: 0.3%;
@@ -821,9 +822,20 @@ input:-moz-placeholder {
     font-size: 150%;
     margin-left: -2.2%;
   }
-
+  .recent-project-tech {
+    display: flex;
+    column-gap: 25%;
+    width: 10%;
+    padding: 0;   
+  }
   .recent-project-tech li {
+    font-family: 'Inter', sans-serif;
+    color: #091E42;
+    margin: 2px;
+    padding: 12px;
     font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
   }
 
   .projects-done-1 {
