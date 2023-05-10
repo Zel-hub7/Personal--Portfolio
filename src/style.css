@@ -180,7 +180,7 @@ nav {
 
 .multi {
   font-size: 22px;
-  font-family: "Inter", sans-serif;
+  font-family: "Crete Round", sans-serif;
   color: #091e42;
 }
 
@@ -201,19 +201,6 @@ nav {
   color: #ff6b00;
 }
 
-/* .prof-flex {
-  display: flex;
-  flex-direction: column;
-  background-image: url(./Img/Img\ Placeholder.png);
-  height: 90vh;
-  background-repeat: no-repeat;
-  background-size: 107.2%;
-  max-height: 30%;
-  width: 100%;
-  padding: 5%;
-  row-gap: 10px;
-  flex-grow: 1;
-} */
 
 .name {
   margin-top: 27%;
@@ -688,9 +675,11 @@ input:-moz-placeholder {
     line-height: 1;
     margin-top: 2%;
     margin-right: 5%;
+    
   }
 
   .nav-list li a {
+    font-family: 'Inter', sans-serif;
     color: white;
     font-size: 20px;
   }
@@ -784,6 +773,7 @@ input:-moz-placeholder {
   }
 
   .recently {
+    font-family: 'Crete Round',sans-serif;
     flex: none;
     color: #1c1a19;
     margin: 0;
