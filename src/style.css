@@ -158,6 +158,8 @@ nav {
 }
 .recent-project-tech li {
   margin-right: 10px;
+  font-family: "Inter", sans-serif;
+  color: #091e42;
 }
 
 .recent-lists {
@@ -197,7 +199,7 @@ nav {
   background-color: #ff6b00;
   color: #fff;
   border: none;
-  width: 130px;
+  size: 20%;
 }
 
 .see-recent-project:hover {
@@ -687,6 +689,9 @@ input:-moz-placeholder {
   .login-box {
     display: none;
   }
+  .multi {
+    margin-top: -5%;
+  }
 
   .user-box {
     display: flex;
@@ -694,7 +699,7 @@ input:-moz-placeholder {
   }
 
   textarea {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     padding: px;
   }
 
@@ -709,7 +714,7 @@ input:-moz-placeholder {
   }
 
   .nav-list li a {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     color: white;
     font-size: 20px;
   }
@@ -803,7 +808,7 @@ input:-moz-placeholder {
   }
 
   .recently {
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
     flex: none;
     color: #1c1a19;
     margin: 0;
@@ -832,16 +837,14 @@ input:-moz-placeholder {
 
   .recent-project-tech {
     display: flex;
-    column-gap: 25%;
-    width: 10%;
-    padding: 0;
+    padding-top: 18px;
+    margin-bottom: 5px;
   }
 
   .recent-project-tech li {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     color: #091e42;
-    margin: 2px;
-    padding: 12px;
+    margin-right: 10px;
     font-size: 14px;
     font-weight: 500;
     font-style: normal;
@@ -914,7 +917,7 @@ input:-moz-placeholder {
   }
 
   .project-stack ul li {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     margin: 2px;
     padding: 10px;
     color: #fff;
