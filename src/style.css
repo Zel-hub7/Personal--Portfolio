@@ -52,9 +52,11 @@ nav {
   margin-right: 40px;
   cursor: pointer;
 }
+
 li a:hover img {
   transform: scale(1.5);
 }
+
 .section {
   background-color: #1c1a19;
   height: 100%;
@@ -1048,8 +1050,10 @@ input:-moz-placeholder {
     width: 60%;
     padding-left: 1%;
     margin-left: -6%;
+
     /* transform: scale(0.7); */
   }
+
   .desktop-img:hover {
     transform: scale(0.9);
   }
