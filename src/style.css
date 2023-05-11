@@ -52,7 +52,9 @@ nav {
   margin-right: 40px;
   cursor: pointer;
 }
-
+li a:hover img {
+  transform: scale(1.5);
+}
 .section {
   background-color: #1c1a19;
   height: 100%;
