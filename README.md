@@ -16,7 +16,7 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-    - [Live Demo](#live-demo)
+  - [� Live Demo](#-live-demo)
   - [💻 Getting Started ](#-getting-started-)
     - [setup](#setup)
     - [Install](#install)
@@ -49,9 +49,9 @@ After going through the study material (covering; semantics of HTML5, linters, C
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Live Demo
+## 🚀 Live Demo
+Click on this link to access the page
 <a href ="https://zel-hub7.github.io/">Live Demo Link</a>
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
 ### setup
