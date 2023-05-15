@@ -47,7 +47,8 @@ After going through the study material (covering; semantics of HTML5, linters, C
 [There is a 3-stripped location panel at the right corner]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-🚀 Live Demo
+##🚀 Live Demo
+Click on this link to access the page live
 <a href ="https://zel-hub7.github.io/">Live Demo Link</a>
 
 ## 💻 Getting Started <a name="getting-started"></a>
