@@ -595,6 +595,9 @@ input:-moz-placeholder {
   .mobile-menu {
     display: none;
   }
+  #hidden {
+    margin-top: 25px;
+  }
 
   /* Temporary change */
   .nav-menu {

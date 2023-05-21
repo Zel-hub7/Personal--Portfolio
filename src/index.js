@@ -9,6 +9,7 @@ const hidden = document.querySelector("#hidden")
 
 
 
+
 mobile.style.display = "none";
 hidden.style.display = "none";
 
@@ -17,6 +18,8 @@ ham.addEventListener("click", function(){
     if(mobile.style.display == "none") {
         mobile.style.display = "block";
         hidden.style.display = "block";
+        ham.style.display = "none";
+        logo.style.display = "none";
     }
 })
 // hidden.style.display = "block";
@@ -25,8 +28,14 @@ ham.addEventListener("click", function(){
 hidden.addEventListener("click", function() {
     if(mobile.style.display == "block") {
         mobile.style.display = "none";
+        hidden.style.display = "none";
+        ham.style.display = "block";
+        logo.style.display = "block";
+
+
     }
 })
+
 
 
 
