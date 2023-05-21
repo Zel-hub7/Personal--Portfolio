@@ -8,6 +8,7 @@
    <link rel="stylesheet" href="style.css">
    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
    <script src="https://kit.fontawesome.com/08b4cd9ea0.js" crossorigin="anonymous"></script>
+
    <title>Home Page</title>
     <!-- <label for="check" class="hamberger-btn">
             <a href="#"><i id="ham" class="fas fa-bars"></i></a>
@@ -16,10 +17,7 @@
 
 <body>
    <header>
-      <nav>
-     
-     
-       <!--  -->
+             <!--  -->
       <nav>
          <div class="logo-container">
             <a href="#">
@@ -27,13 +25,12 @@
             </a>
          </div>
          <div class="ham-container hamberger-btn">
-            <input class="checkbox" type="checkbox" />
+            <label for ="checkbox" class="checkbox" type="checkbox" />
             <span class="ham">
                <a href="#" id="ham"><i class="fas fa-bars"></i></a>
             </span>
-
             <span class="hidden">
-               <i class="fa-solid fa-xmark"></i>
+               <i id = "hidden" class="fa-solid fa-xmark"></i>
             </span>
          </div>
 
@@ -44,7 +41,23 @@
             <li><a href="#">Contact</a></li>
             <li><a href="#"><img src="Img/Union.png" alt="mail-icon"></a></li>
          </ul>
+
+
+         <Ul class="mobile-menu">
+            <li><a class="active" href="#">Portfolio</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+
+         </Ul>
       </nav>
+      <Ul class="mobiles-menu">
+         <li><a id="active mobile-class" href="#">Portfolio</a></li>
+         <hr id = "horizontal" />
+         <li><a id="mobile-class" href="#">About</a></li>
+         <hr id = "horizontal" />
+         <li><a id="mobile-class" href="#">Contact</a></li>
+         <hr id = "horizontal" />
+      </Ul>
    </header>
 
 
@@ -319,20 +332,12 @@
          </div>
       </footer>
 
-<script> 
-
-   function mobile() {
-      if(document.getElementsByClassName('nav-list').style.display == 'block') {
-         document.getElementsByClassName('nav-list').style.display = 'none';
-      } else {
-         document.getElementsByClassName('nav-list').style.display = 'block';  
-      }
-   }
-   document.getElementsById('ham').addEventListener('click', mobile)
-   
+<script type="text/javascript" src="index.js"> 
 
 
 </script>
+
+<!-- <script type="text/javascript"></script> -->
 </body>
 
 </html>

@@ -309,6 +309,7 @@ textarea {
   background-color: #1c1a19;
 }
 
+
 .about_me {
   background: #1c1a19;
   color: #fff;
@@ -591,6 +592,37 @@ input:-moz-placeholder {
   .nav-list {
     display: none;
   }
+  .mobile-menu {
+    display: none;
+  }
+
+  /* Temporary change */
+  .nav-menu {
+    display: none;
+  }
+  .mobiles-menu {
+    list-style-type: none;
+    height: 100vh;
+    overflow: hidden;
+    padding-left: 30px;
+    padding-top: 60px;
+    color: white;
+    background-color: #3c3a39;
+
+  }
+  .mobiles-menu li {
+    padding: 20px;
+   
+  }
+  .mobiles-menu li a {
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    line-height: 44px;
+    color: #FFF5E1;
+  }
+  #horizontal {
+    margin-right: 30px;
+  }
 
   .touched {
     display: none;
@@ -687,9 +719,10 @@ input:-moz-placeholder {
     padding-right: 100px;
     justify-content: right;
     width: 100%;
-    /* height: 0; */
-    top: 85px;
-   
+    top: 85px;  
+  }
+  .mobiles-menu {
+    display: none;
   }
 
   #lname {
