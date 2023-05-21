@@ -9,10 +9,17 @@
    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
    <script src="https://kit.fontawesome.com/08b4cd9ea0.js" crossorigin="anonymous"></script>
    <title>Home Page</title>
+    <!-- <label for="check" class="hamberger-btn">
+            <a href="#"><i id="ham" class="fas fa-bars"></i></a>
+         </label> -->
 </head>
 
 <body>
    <header>
+      <nav>
+     
+     
+       <!--  -->
       <nav>
          <div class="logo-container">
             <a href="#">
@@ -21,8 +28,8 @@
          </div>
          <div class="ham-container hamberger-btn">
             <input class="checkbox" type="checkbox" />
-            <span>
-               <a href="#"><i id="ham" class="fas fa-bars"></i></a>
+            <span class="ham">
+               <a href="#" id="ham"><i class="fas fa-bars"></i></a>
             </span>
 
             <span class="hidden">
@@ -30,9 +37,7 @@
             </span>
          </div>
 
-         <!-- <label for="check" class="hamberger-btn">
-            <a href="#"><i id="ham" class="fas fa-bars"></i></a>
-         </label> -->
+        
          <ul class="nav-list">
             <li><a class="active" href="#">Portfolio</a></li>
             <li><a href="#">About</a></li>
@@ -314,7 +319,20 @@
          </div>
       </footer>
 
-<script src="index.js"> </script>
+<script> 
+
+   function mobile() {
+      if(document.getElementsByClassName('nav-list').style.display == 'block') {
+         document.getElementsByClassName('nav-list').style.display = 'none';
+      } else {
+         document.getElementsByClassName('nav-list').style.display = 'block';  
+      }
+   }
+   document.getElementsById('ham').addEventListener('click', mobile)
+   
+
+
+</script>
 </body>
 
 </html>
