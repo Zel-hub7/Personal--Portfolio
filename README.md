@@ -16,6 +16,7 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+  - [🚀 Live Demo](#-live-demo)
   - [💻 Getting Started ](#-getting-started-)
     - [setup](#setup)
     - [Install](#install)
@@ -47,7 +48,14 @@ After going through the study material (covering; semantics of HTML5, linters, C
 [There is a 3-stripped location panel at the right corner]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 🚀 Live Demo
+Click on this link to access the page live
+<a href ="https://zel-hub7.github.io/">Live Demo Link</a>
 
+## 🚀 Live Demo
+Click on this link to access the page
+<a href ="https://zel-hub7.github.io/">Live Demo Link</a>
+<a href ="https://www.loom.com/share/afff539499f546eeb04915d784cb4a5f">Live presentation about the project</a>
 ## 💻 Getting Started <a name="getting-started"></a>
 
 ### setup
