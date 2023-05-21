@@ -3,4 +3,8 @@ function navItemsToggler() {
     const navItems = document.getElementsByClassName('nav-list');
     const body = document.getElementsByTagName('body')[0];
 
+
+    console.log(navItems);
+
 }
+navItemsToggler();
