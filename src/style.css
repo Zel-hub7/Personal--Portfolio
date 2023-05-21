@@ -715,6 +715,7 @@ input:-moz-placeholder {
 
 /* Style for desktop size */
 @media (min-width: 768px) {
+ 
   .nav-list {
     display: flex;
     font-size: 20px;
@@ -723,11 +724,21 @@ input:-moz-placeholder {
     width: 100%;
     top: 85px;  
   }
+  #logo {
+    display: block;
+  }
   
   .mobile-class {
     display: none;
   }
   .mobiles-menu {
+    display: none;
+    height: 0;
+  }
+  .mobiles-menu li a {
+    display: none;
+  }
+  #horizontal {
     display: none;
   }
 
