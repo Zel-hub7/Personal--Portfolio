@@ -5,14 +5,14 @@ const ham = document.getElementById("ham");
 const logo = document.getElementById("logo");
 const mobile = document.querySelector(".mobiles-menu");
 const mobile_li = document.getElementById("mobile-class");
-const hidden = document.querySelector("#hidden")
-
-
+const hidden = document.querySelector("#hidden");
+const main_section = document.querySelector(".main-section");
+const width = window.innerWidth;
+const mediaQuery = window.matchMedia("(max-width: minpx)");
 
 
 mobile.style.display = "none";
 hidden.style.display = "none";
-
 
 ham.addEventListener("click", function(){
     if(mobile.style.display == "none") {
@@ -20,10 +20,12 @@ ham.addEventListener("click", function(){
         hidden.style.display = "block";
         ham.style.display = "none";
         logo.style.display = "none";
+        main_section.style.display = "none";
+
+          
+
     }
 })
-// hidden.style.display = "block";
-// // mobile.style.display = "none";
 
 hidden.addEventListener("click", function() {
     if(mobile.style.display == "block") {
@@ -31,10 +33,16 @@ hidden.addEventListener("click", function() {
         hidden.style.display = "none";
         ham.style.display = "block";
         logo.style.display = "block";
-
+        main_section.style.display = "block";
 
     }
 })
+
+
+
+
+
+  
 
 
 

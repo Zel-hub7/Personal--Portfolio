@@ -596,7 +596,7 @@ input:-moz-placeholder {
     display: none;
   }
   #hidden {
-    margin-top: 25px;
+    padding-top: 25px;
   }
 
   /* Temporary change */
@@ -606,9 +606,8 @@ input:-moz-placeholder {
   .mobiles-menu {
     list-style-type: none;
     height: 100vh;
-    overflow: hidden;
     padding-left: 30px;
-    padding-top: 60px;
+    padding-top: 35px;
     color: white;
     background-color: #3c3a39;
 
@@ -723,6 +722,10 @@ input:-moz-placeholder {
     justify-content: right;
     width: 100%;
     top: 85px;  
+  }
+  
+  .mobile-class {
+    display: none;
   }
   .mobiles-menu {
     display: none;
