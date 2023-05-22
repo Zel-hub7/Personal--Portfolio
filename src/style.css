@@ -11,6 +11,7 @@
 body {
   overflow-x: hidden;
 }
+
 .remove {
   display: none;
 }
@@ -23,6 +24,7 @@ nav {
   display: flex;
   justify-content: space-between;
 }
+
 .nav-list {
   display: block;
 }
@@ -312,7 +314,6 @@ textarea {
   background-color: #1c1a19;
 }
 
-
 .about_me {
   background: #1c1a19;
   color: #fff;
@@ -595,9 +596,11 @@ input:-moz-placeholder {
   .nav-list {
     display: none;
   }
+
   .mobile-menu {
     display: none;
   }
+
   #hidden {
     padding-top: 25px;
   }
@@ -606,10 +609,7 @@ input:-moz-placeholder {
   .nav-menu {
     display: none;
   }
-  .mob-nav {
-  
-    
-  }
+
   .mobiles-menu {
     list-style-type: none;
     overflow: hidden;
@@ -618,20 +618,19 @@ input:-moz-placeholder {
     padding-left: 30px;
     padding-top: 35px;
     background-color: #3c3a39;
-  
-
   }
-  
+
   .mobiles-menu li {
     padding: 20px;
-   
   }
+
   .mobiles-menu li a {
     font-size: 32px;
     font-family: 'Inter', sans-serif;
     line-height: 44px;
-    color: #FFF5E1;
+    color: #fff5e1;
   }
+
   #horizontal {
     margin-right: 50px;
   }
@@ -725,29 +724,32 @@ input:-moz-placeholder {
 
 /* Style for desktop size */
 @media (min-width: 768px) {
- 
   .nav-list {
     display: flex;
     font-size: 20px;
     padding-right: 100px;
     justify-content: right;
     width: 100%;
-    top: 85px;  
+    top: 85px;
   }
+
   #logo {
     display: block;
   }
-  
+
   .mobile-class {
     display: none;
   }
+
   .mobiles-menu {
     display: none;
     height: 0;
   }
+
   .mobiles-menu li a {
     display: none;
   }
+
   #horizontal {
     display: none;
   }
