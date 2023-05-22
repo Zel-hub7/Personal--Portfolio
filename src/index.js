@@ -4,16 +4,21 @@ const body = document.getElementsByTagName("body")[0];
 const ham = document.getElementById("ham");
 const logo = document.getElementById("logo");
 const mobile = document.querySelector(".mobiles-menu");
-const mobile_li = document.getElementById("mobile-class");
+const mobile_li = document.querySelectorAll("#mobile-class");
 const hidden = document.querySelector("#hidden");
 const main_section = document.querySelector(".main-section");
 const width = window.innerWidth;
 const mediaQuery = window.matchMedia("(min-width: 768px)");
+const active = document.querySelector("active");
+const links = document.querySelectorAll('a');
+
+
 
 
 
 mobile.classList.add('remove')
 hidden.style.display = "none";
+
 
 
 
@@ -41,4 +46,10 @@ hidden.addEventListener("click", function () {
 });
 
 
+
+// links.forEach(link => {
+//   link.addEventListener('click', () => {
+//     document.body.style.overflow = 'auto';
+//   });
+// });
 
