@@ -32,3 +32,7 @@ links.forEach((link) => {
     ham.style.display = 'block';
   });
 });
+
+function popup() {
+  // This function will do the popup
+}
