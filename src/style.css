@@ -47,6 +47,11 @@ nav {
 #logo {
   font-family: "Roboto", sans-serif;
   color: white;
+  margin-left: 25px;
+}
+
+#logo:hover {
+  color: #ff6b00;
 }
 
 .hamberger-btn {
@@ -67,6 +72,10 @@ li a:hover img {
 .section {
   background-color: #1c1a19;
   height: 100%;
+}
+
+.hovered:hover {
+  color: #f55800;
 }
 
 .container {
@@ -626,7 +635,7 @@ input:-moz-placeholder {
 
   .mobiles-menu li a {
     font-size: 32px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     line-height: 44px;
     color: #fff5e1;
   }
