@@ -10,7 +10,7 @@ const main_section = document.querySelector(".main-section");
 const width = window.innerWidth;
 const mediaQuery = window.matchMedia("(min-width: 768px)");
 const active = document.querySelector("active");
-const links = document.querySelectorAll('a');
+const links = document.querySelectorAll('li');
 
 
 
@@ -28,11 +28,6 @@ ham.addEventListener("click", function () {
   ham.style.display = "none";
   ham.classList.add('remove');
   logo.classList.add('remove');
-  document.body.style.overflow = 'hidden';
-  
-
-
- 
 });
 
 hidden.addEventListener("click", function () {
@@ -41,15 +36,20 @@ hidden.addEventListener("click", function () {
   ham.style.display = "block";
   main_section.style.display = "block";
   logo.classList.remove('remove');
-  document.body.style.overflow = 'auto';
+ 
 
 });
 
 
 
-// links.forEach(link => {
-//   link.addEventListener('click', () => {
-//     document.body.style.overflow = 'auto';
-//   });
-// });
+links.forEach(link => {
+  link.addEventListener('click', () => {
+    mobile.style.display = "none";
+    logo.classList.remove('remove');
+    hidden.style.display = "none";
+    ham.style.display = "block";
+
+
+  });
+});
 
