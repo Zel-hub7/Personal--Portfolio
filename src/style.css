@@ -606,15 +606,21 @@ input:-moz-placeholder {
   .nav-menu {
     display: none;
   }
+  .mob-nav {
+  
+    
+  }
   .mobiles-menu {
     list-style-type: none;
-    height: 92vh;
+    height: 100vh;
+    width: 100%;
     padding-left: 30px;
     padding-top: 35px;
-    color: white;
     background-color: #3c3a39;
+  
 
   }
+  
   .mobiles-menu li {
     padding: 20px;
    
@@ -626,7 +632,7 @@ input:-moz-placeholder {
     color: #FFF5E1;
   }
   #horizontal {
-    margin-right: 30px;
+    margin-right: 50px;
   }
 
   .touched {
