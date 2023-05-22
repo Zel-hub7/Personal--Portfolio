@@ -7,9 +7,38 @@
   list-style: none;
   box-sizing: border-box;
 }
+.mobiles-menu {
+  list-style-type: none;
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+  padding-left: 30px;
+  padding-top: 35px;
+  background-color: #3c3a39;
+
+
+}
+header {
+  overflow-y: hidden;
+}
+
+.mobiles-menu li {
+  padding: 20px;
+ 
+}
+.mobiles-menu li a {
+  font-size: 32px;
+  font-family: 'Inter', sans-serif;
+  line-height: 44px;
+  color: #FFF5E1;
+}
+#horizontal {
+  margin-right: 50px;
+}
 
 body {
   overflow-x: hidden;
+  
 }
 
 /* stylings for navigation */
@@ -589,7 +618,22 @@ input:-moz-placeholder {
   .nav-list {
     display: none;
   }
+<<<<<<< Updated upstream
 
+=======
+  .mobile-menu {
+    display: none;
+  }
+  #hidden {
+    padding-top: 25px;
+  }
+
+  /* Temporary change */
+  .nav-menu {
+    display: none;
+  }
+ 
+>>>>>>> Stashed changes
   .touched {
     display: none;
   }
