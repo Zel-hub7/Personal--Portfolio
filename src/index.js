@@ -9,17 +9,7 @@ const hidden = document.querySelector("#hidden");
 const main_section = document.querySelector(".main-section");
 const width = window.innerWidth;
 const mediaQuery = window.matchMedia("(min-width: 768px)");
-
-// mediaQuery.addListener(function() {
-//     if (mediaQuery.matches) {
-//         main_section.style.display = "block";
-//         logo.style.display = "block";
-
-//       // Do something for screens that are smaller than 768 pixels wide
-//     } else {
-//       // Do something for screens that are 768 pixels wide or larger
-//     }
-//   });
+let check = true;
 
 mobile.style.display = "none";
 hidden.style.display = "none";
@@ -28,16 +18,19 @@ ham.addEventListener("click", function () {
   mobile.style.display = "block";
   hidden.style.display = "block";
   ham.style.display = "none";
-  logo.style.display = "none";
-//   main_section.style.display = "none";
-});
+  logo.classList.add('remove');
+})
+  // logo.style.color = "red";
+
+
+
 
 hidden.addEventListener("click", function () {
   mobile.style.display = "none";
   hidden.style.display = "none";
   ham.style.display = "block";
-  logo.style.display = "block";
   main_section.style.display = "block";
+  logo.classList.remove('remove');
 });
 
 // ham.addEventListener("click", function() {
