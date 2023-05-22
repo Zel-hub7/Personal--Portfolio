@@ -5,7 +5,7 @@ const hidden = document.querySelector('#hidden');
 const mainSection = document.querySelector('.main-section');
 const links = document.querySelectorAll('li');
 
-mobile.classList.add('remove')
+mobile.classList.add('remove');
 hidden.style.display = "none";
 
 ham.addEventListener("click", function () {
@@ -34,4 +34,3 @@ links.forEach(link => {
 
   });
 });
-
