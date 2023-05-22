@@ -8,41 +8,66 @@
    <link rel="stylesheet" href="style.css">
    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
    <script src="https://kit.fontawesome.com/08b4cd9ea0.js" crossorigin="anonymous"></script>
+
    <title>Home Page</title>
+    <!-- <label for="check" class="hamberger-btn">
+            <a href="#"><i id="ham" class="fas fa-bars"></i></a>
+         </label> -->
 </head>
 
 <body>
    <header>
-      <nav>
+             <!--  -->
+      <nav class="nav">
          <div class="logo-container">
             <a href="#">
                <h3 id="logo">My Logo</h3>
             </a>
          </div>
          <div class="ham-container hamberger-btn">
-            <input class="checkbox" type="checkbox" />
-            <span>
-               <a href="#"><i id="ham" class="fas fa-bars"></i></a>
+            <label for ="checkbox" class="checkbox" type="checkbox" />
+            <span class="ham">
+               <a href="#" id="ham"><i class="fas fa-bars"></i></a>
             </span>
-
             <span class="hidden">
-               <i class="fa-solid fa-xmark"></i>
+               <i id = "hidden" class="fa-solid fa-xmark"></i>
             </span>
          </div>
 
-         <!-- <label for="check" class="hamberger-btn">
-            <a href="#"><i id="ham" class="fas fa-bars"></i></a>
-         </label> -->
+        
          <ul class="nav-list">
+            <li><a class="active" href="#">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#"><img src="Img/Union.png" alt="mail-icon"></a></li>
+         </ul>
+
+
+         <Ul class="mobile-menu">
             <li><a class="active" href="#">Portfolio</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
-            <li><a href="#"><img src="Img/Union.png" alt="mail-icon"></a></li>
-         </ul>
+
+         </Ul>
+       
       </nav>
+      
+      <nav class="mob-nav">
+
+      
+      <Ul class="mobiles-menu">
+         <li><a id="active mobile-class" href="#title">Portfolio</a></li>
+         <hr id = "horizontal" />
+         <li><a id="mobile-class" href="#about">About</a></li>
+         <hr id = "horizontal" />
+         <li><a id="mobile-class" href="#contact">Contact</a></li>
+         <hr id = "horizontal" />
+      </Ul>
+      </nav>
+      
    </header>
 
-
+<section class = "main-section">
    <!-- Body section -->
    <section class="section">
       <div class="container c-1">
@@ -214,7 +239,7 @@
    <section class="inner">
       <section class="about">
          <div class="about_me">
-            <h2 class="about-title">About me</h2>
+            <h2 id ="about" class="about-title">About me</h2>
             <p class="myNote my-notes">Hello I’m a software developer! I can help you build a product , feature or
                website Look
                through some of my work and experience! If you like what you see and have a project you need coded, don’t
@@ -261,7 +286,7 @@
       </section>
       <section class="contacting grid">
          <div class="contact-flex">
-            <p class="c-par contact-flex-item">
+            <p id ="contact" class="c-par contact-flex-item">
                I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
             </p>
             <div class="login-box boxes">
@@ -313,6 +338,14 @@
             <img id="dashed" src="Img/dash-shaped.png" alt="Dash" />
          </div>
       </footer>
+   </section>
+
+<script type="text/javascript" src="index.js"> 
+
+
+</script>
+
+<!-- <script type="text/javascript"></script> -->
 </body>
 
 </html>
