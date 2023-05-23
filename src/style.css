@@ -200,7 +200,7 @@ li a:hover img {
 }
 
 .multi {
-  font-size: 40px;
+  font-size: 35px;
   font-family: "Crete Round", sans-serif;
   color: #091e42;
 }
@@ -653,7 +653,8 @@ input:-moz-placeholder {
   }
 
   .desktop-img {
-    display: none;
+    width: 100%;
+    padding-top: 15px;
   }
 
   .desktop-grid {
@@ -1148,6 +1149,10 @@ input:-moz-placeholder {
     display: flex;
     column-gap: 5%;
     margin-left: -5%;
+  }
+  .pleased {
+    display: flex;
+    column-gap: 6%;
   }
 
   .recent-dash {
