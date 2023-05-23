@@ -1033,7 +1033,7 @@ input:-moz-placeholder {
     padding-left: 10px;
   }
   .snap {
-    width: 30%;
+    width: 40%;
   }
   .pop-flex {
     display: flex;
@@ -1041,8 +1041,20 @@ input:-moz-placeholder {
     column-gap: 3%;
   }
   .snap-p {
-    height: 100%;
-    font-size: 20px;
+    font-size: 16px;
+  }
+  .sidelines {
+    display: flex;
+    flex-direction: column;
+    row-gap: 110px;
+  }
+  .pop-up {
+    margin: 5%;
+    border: #000 solid;
+    border-width: 1px;
+  }
+  #enables {
+    width: 20%;
   }
 
   .project-stack ul li {
@@ -1059,6 +1071,9 @@ input:-moz-placeholder {
    #close {
     float: right;
     margin-right: 50px;
+    margin-top: 65px;
+    font-size: 25px;
+
    }
 
   .see-none {
