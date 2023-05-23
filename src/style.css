@@ -1032,6 +1032,18 @@ input:-moz-placeholder {
   .pop-title {
     padding-left: 10px;
   }
+  .snap {
+    width: 30%;
+  }
+  .pop-flex {
+    display: flex;
+    margin: 6%;
+    column-gap: 3%;
+  }
+  .snap-p {
+    height: 100%;
+    font-size: 20px;
+  }
 
   .project-stack ul li {
     font-family: "Inter", sans-serif;
