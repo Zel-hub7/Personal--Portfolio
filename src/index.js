@@ -48,6 +48,58 @@ const bannerProjects = [
   },
 ];
 
+const projectInfo = [
+  {
+    id: 1,
+    projectName: 'Data Dashboard Healthcare',
+    projectInfo:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    tech: ['HTML', 'Bootstrap', 'Ruby'],
+    img: 'icons/pro_sec.svg',
+  },
+  {
+    id: 2,
+    projectName: 'Data Dashboard Healthcare',
+    projectInfo:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    tech: ['HTML', 'Bootstrap', 'Ruby'],
+    img: 'icons/Data_content_image.svg',
+  },
+  {
+    id: 3,
+    projectName: 'Website Portfolio',
+    projectInfo:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    tech: ['HTML', 'Bootstrap', 'Ruby'],
+    img: 'icons/website.svg',
+  },
+  {
+    id: 4,
+    projectName: 'Profesional Art Printing Data',
+    projectInfo:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    tech: ['HTML', 'Bootstrap', 'Ruby'],
+    img: 'icons/professional.svg',
+  },
+  {
+    id: 5,
+    projectName: 'Data Dashboard Healthcare',
+    projectInfo:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    tech: ['HTML', 'Bootstrap', 'Ruby'],
+    img: 'icons/Data_content_image.svg',
+  },
+  {
+    id: 6,
+    projectName: 'Website Portfolio',
+    projectInfo:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    tech: ['HTML', 'Bootstrap', 'Ruby'],
+    img: 'icons/website.svg',
+  },
+];
+
+
 function mainProject() {
   const presentProject = bannerProjects[0];
   const headLineProject = `<div class="please">
@@ -79,56 +131,17 @@ function mainProject() {
   return headLineProject;
 }
 
-// const projectInfo = [
-//   {
-//     id: 1,
-//     projectName: 'Data Dashboard Healthcare',
-//     projectInfo:
-//       "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-//     tech: ['HTML', 'Bootstrap', 'Ruby'],
-//     img: 'icons/pro_sec.svg',
-//   },
-//   {
-//     id: 2,
-//     projectName: 'Data Dashboard Healthcare',
-//     projectInfo:
-//       "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-//     tech: ['HTML', 'Bootstrap', 'Ruby'],
-//     img: 'icons/Data_content_image.svg',
-//   },
-//   {
-//     id: 3,
-//     projectName: 'Website Portfolio',
-//     projectInfo:
-//       "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-//     tech: ['HTML', 'Bootstrap', 'Ruby'],
-//     img: 'icons/website.svg',
-//   },
-//   {
-//     id: 4,
-//     projectName: 'Profesional Art Printing Data',
-//     projectInfo:
-//       "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-//     tech: ['HTML', 'Bootstrap', 'Ruby'],
-//     img: 'icons/professional.svg',
-//   },
-//   {
-//     id: 5,
-//     projectName: 'Data Dashboard Healthcare',
-//     projectInfo:
-//       "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-//     tech: ['HTML', 'Bootstrap', 'Ruby'],
-//     img: 'icons/Data_content_image.svg',
-//   },
-//   {
-//     id: 6,
-//     projectName: 'Website Portfolio',
-//     projectInfo:
-//       "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-//     tech: ['HTML', 'Bootstrap', 'Ruby'],
-//     img: 'icons/website.svg',
-//   },
-// ];
+const showSections = () => {
+  const divCard = projectInfo.map((item) => {
+    if(item.id === 1) {
+      return
+    }
+  })
+}
+
+
+
+
 function PopUp() {
   const pop = `
   <span class="close">
