@@ -33,6 +33,32 @@ links.forEach((link) => {
   });
 });
 
-function popup() {
-  // This function will do the popup
+// The pop Up window
+const bannerProjects = [
+  {
+    Name: 'projectOne',
+    projectTitle: 'Multi-Post Stories',
+    projectDescription:
+      `A daily selection of privately personalized reads; no accounts or
+      sign-ups required. has been the industry's standard dummy text
+      ever since the 1500s, when an unknown printer took a standard
+      dummy text.`,
+    tech: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
+    img1: 'Img/recent-works place holder.png',
+    img2: 'Img/Img Placeholder (2).png',
+  },
+];
+
+function mainProject() {
+  const presentProject = bannerProjects[0];
+  const headLineProject =`<div class="please">
+   <img src = ${presentProject.img1} class = "project-img works-flex-item" alt ="The banner" />
+   <img src = ${presentProject.img2} class = "desktop-img" alt ="The banner" />
+  
+
+  </div>
+  ` 
+
+  return headLineProject;
 }
+  
