@@ -138,16 +138,16 @@ function mainProject() {
 
 const projectsArr = [
   {
-    projectName: 'Keeeeping track of hundreds  of components website',
+    projectName: 'Multi-Post Stories',
     projectDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. <br><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     technology: ['HTML', 'Bootstrap ', 'Ruby on Rails'],
     linkToLive: 'https://meryemsanem.github.io/desktop-version/',
     linkToSource: 'https://github.com/meryemsanem/desktop-version',
     image: 'Img/Snapshoot Portfolio.png',
   },
   {
-    projectName: 'Multi-Post Stories',
+    projectName: 'Data Dashboard Healthcare',
     projectDescription: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard",
     technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
     linkToLive: 'https://meryemsanem.github.io/desktop-version/',
@@ -242,7 +242,7 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
         <div class='desk-pop'>
         <i id = "close" class="fa-solid fa-xmark close"></i>
           </div> <br><br>
-              <h3 id='name'>${projectsArr[i].projectName}</h3> <br>
+              <h3 class ="pro-name" id='name'>${projectsArr[i].projectName}</h3> <br>
      <div class='card-det'>
               <ul class='skill'>
               <a href="#" class="a"><li class='skills'>${projectsArr[i].technology[0]}</li></a> 
