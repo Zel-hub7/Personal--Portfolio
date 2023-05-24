@@ -292,8 +292,9 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
       newDiv.innerHTML = `
       <div class='popup-container2'>
         <div class='mob-pop'>
+        <h3 id='name'>${projectsArr[i + 1].projectName}</h3>
          <button id='close' class='close'>&#x2716;</button>
-         <h3 id='name'>${projectsArr[i + 1].projectName}</h3> <br>
+          <br>
          </div> <br><br>
           <ul class='skill'>
          <a href="#" class="a"><li class='skills'>${
@@ -306,7 +307,7 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
   projectsArr[i].technology[2]
 }</li></a>
         </ul>
-        <div class="text-img">
+        <div class="text-img mob-img">
        <img class="Pop-Img" src='${
   projectsArr[i + 1].image
 }' alt='mobile-popup' />
