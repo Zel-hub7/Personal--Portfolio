@@ -613,13 +613,16 @@ input:-moz-placeholder {
   }
   #name {
     font-size: 30px;
+    margin-top: 5px;
+    
   }
   .close {
-   margin-top: 10px;
+   margin-top: -22px;  
+   float: right;
   }
   .mob-pop {
-    display: flex;
-    overflow-y: scroll;
+    /* display: flex; */
+    margin-right: 5px;
     column-gap: 15%;
     margin-left: 5%;
   
