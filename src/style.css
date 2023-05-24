@@ -1115,7 +1115,8 @@ input:-moz-placeholder {
   }
   .text-img {
     display: flex;
-    padding: 8px;
+    margin-top: -30px;
+    margin-left: 5%;
     column-gap: 10px;
   }
   .button-pop {
@@ -1360,7 +1361,12 @@ input:-moz-placeholder {
     margin-top: -8%;
   }
   .close {
-    float: right;
+    padding-top: 50px;
+  }
+  .pro-name {
+    padding-top: -25px;
+    width: 90%;
+    margin-left: 5%;
   }
 
   .c-par {
