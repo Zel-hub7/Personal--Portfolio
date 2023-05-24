@@ -1123,8 +1123,8 @@ input:-moz-placeholder {
     display: flex;
     column-gap: 5px;
     width: max-content;
-    margin-left: 46%;
-    margin-top: -55px;
+    margin-left: 44%;
+    margin-top: -115px;
   }
 
   .button-pop button {
@@ -1150,7 +1150,7 @@ input:-moz-placeholder {
     padding-left: 5px;
   }
   .Popup-image {
-    width: 45%;
+    width: 40%;
     height: 50%;
     padding-top: -10px;
   }
