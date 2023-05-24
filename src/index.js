@@ -36,6 +36,105 @@ links.forEach((link) => {
 // The pop Up window
 // 
 
+const bannerProjects = [
+  {
+    Name: "projectOne",
+    projectTitle: "Multi-Post Stories",
+    projectDescription: `A daily selection of privately personalized reads; no accounts or
+      sign-ups required. has been the industry's standard dummy text
+      ever since the 1500s, when an unknown printer took a standard
+      dummy text.`,
+    tech: ["CSS", "HTML", "Bootstrap", "Ruby"],
+    img1: "Img/recent-works place holder.pngImg/recent-works place holder.png",
+    img2: "Img/Img Placeholder (2).png",
+  },
+];
+
+
+
+const projectInfo = [
+  {
+    id: 1,
+    projectName: 'Data Dashboard Healthcare',
+    projectInfo:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    tech: ['HTML', 'Bootstrap', 'Ruby'],
+    img: 'icons/pro_sec.svg',
+  },
+  {
+    id: 2,
+    projectName: 'Data Dashboard Healthcare',
+    projectInfo:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    tech: ['HTML', 'Bootstrap', 'Ruby'],
+    img: 'icons/Data_content_image.svg',
+  },
+  {
+    id: 3,
+    projectName: 'Website Portfolio',
+    projectInfo:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    tech: ['HTML', 'Bootstrap', 'Ruby'],
+    img: 'icons/website.svg',
+  },
+  {
+    id: 4,
+    projectName: 'Profesional Art Printing Data',
+    projectInfo:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    tech: ['HTML', 'Bootstrap', 'Ruby'],
+    img: 'icons/professional.svg',
+  },
+  {
+    id: 5,
+    projectName: 'Data Dashboard Healthcare',
+    projectInfo:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    tech: ['HTML', 'Bootstrap', 'Ruby'],
+    img: 'icons/Data_content_image.svg',
+  },
+  {
+    id: 6,
+    projectName: 'Website Portfolio',
+    projectInfo:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    tech: ['HTML', 'Bootstrap', 'Ruby'],
+    img: 'icons/website.svg',
+  },
+];
+
+
+function mainProject() {
+  const presentProject = bannerProjects[0];
+  const headLineProject = `<div class="please">
+   
+   <div class="multi-note">
+   <h2 class="multi">${presentProject.projectTitle}</h2>
+   <p>${presentProject.projectDescription}</p>
+   <ul class="recent-project-tech works-flex-item">
+      <li class="recent-lists">
+        <a href="#">${presentProject.tech[0]}</a>
+      </li>
+      <li class="recent-lists">
+        <a href="#">${presentProject.tech[1]}</a>
+      </li>
+      <li class="recent-lists">
+        <a href="#">${presentProject.tech[2]}</a>
+      </li>
+      <li class="recent-lists">
+        <a href="#">${presentProject.tech[3]}</a>
+      </li>
+    </ul>
+    
+    <button class="see-project" type="button">See project</button>
+   </div>
+  
+
+  </div>
+  `;
+  return headLineProject;
+}
+
 
 const projectsArr = [
   {
@@ -139,7 +238,9 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
       popDiv.id = 'background-popup';
       popDiv.style.position = 'fixed';
       popDiv.style.display = 'block';
-      popDiv.style.top = '11px';
+      popDiv.style.top = '5px';
+      popDiv.style.left = '25px';
+      popDiv.style.width = '90vw';
       popDiv.style.height = '100vh';
       popDiv.style.zIndex = '11';
       popDiv.innerHTML = `
@@ -147,7 +248,7 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
         <div class='desk-pop'>
             <button id='close' class='close'>X</button>
           </div> <br><br>
-              <h3 id='named'>${projectsArr[i].projectName}</h3> <br>
+              <h3 id='name'>${projectsArr[i].projectName}</h3> <br>
      <div class='card-det'>
               <ul class='skill'>
               <a href="#" class="a"><li class='skills'>${projectsArr[i].technology[0]}</li></a> 
@@ -233,7 +334,6 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
     }
   });
 });
-
 function removeNewDiv() {
   const newDiv = document.querySelector('#mobile');
   const parentElement = newDiv.parentNode;
@@ -256,4 +356,11 @@ document.addEventListener('click', (event) => {
   if (event.target.id === 'close') {
     removeDeskPop();
   }
+});
+
+
+window.addEventListener("load", () => {
+  document.getElementById("multiStories").innerHTML = mainProject();
+  
+  // document.getElementById('grid_contentdesc').innerHTML = showSections().join('');
 });

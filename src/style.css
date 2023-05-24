@@ -614,14 +614,14 @@ input:-moz-placeholder {
   #name {
     font-size: 30px;
   }
-  #close {
-    float: right;
-  }
+  /* .close {
+   float: right;
+  } */
   .skill {
     display: flex;
   }
   .text-img {
-    padding-top: 10px;
+    
   }
   .skill li {
     margin-left: 8px;
@@ -633,6 +633,9 @@ input:-moz-placeholder {
     color: black;
     border: #000 solid;
     border-width: 0.5px;
+    background-color: white;
+  }
+  #mobile {
     background-color: white;
   }
 
@@ -1088,9 +1091,18 @@ input:-moz-placeholder {
   .project-text {
     width: 80%;
   }
+  .desk-pop {
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+  #name{
+    margin-top: -70px;
+    padding-left: 5px;
+  }
   .Popup-image {
     width: 45%;
     height: 50%;
+    padding-top: -10px;
   }
   .popup-container {
     background-color: white;
@@ -1297,6 +1309,9 @@ input:-moz-placeholder {
     column-gap: 5%;
     flex-direction: row;
     margin-top: -8%;
+  }
+  .close {
+    float: right;
   }
 
   .c-par {
