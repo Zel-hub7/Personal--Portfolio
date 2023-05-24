@@ -282,6 +282,7 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
       const newDiv = document.createElement('div');
       newDiv.id = 'mobile';
       newDiv.style.position = 'fixed';
+      
       newDiv.style.marginTop = '20px';
       newDiv.style.top = '0';
       newDiv.style.left = '50%';
@@ -293,7 +294,8 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
       <div class='popup-container2'>
         <div class='mob-pop'>
         <h3 id='name'>${projectsArr[i + 1].projectName}</h3>
-         <button id='close' class='close'>&#x2716;</button>
+
+         <i id = "close" class="fa-solid fa-xmark close"></i>
           <br>
          </div> <br><br>
           <ul class='skill'>
