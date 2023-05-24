@@ -611,6 +611,30 @@ input:-moz-placeholder {
   .nav-list {
     display: none;
   }
+  #name {
+    font-size: 30px;
+  }
+  #close {
+    float: right;
+  }
+  .skill {
+    display: flex;
+  }
+  .text-img {
+    padding-top: 10px;
+  }
+  .skill li {
+    margin-left: 8px;
+    font-family: "Inter", sans-serif;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    border: #000 solid;
+    border-width: 0.5px;
+    background-color: white;
+  }
 
   .mobile-menu {
     display: none;
@@ -740,9 +764,9 @@ input:-moz-placeholder {
 
 /* Style for desktop size */
 @media (min-width: 768px) {
-   /* New styles */
-   
-   .grid_contentdesc {
+  /* New styles */
+
+  .grid_contentdesc {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding-left: 8.9vw;
@@ -815,7 +839,7 @@ input:-moz-placeholder {
   .content_desc li:hover {
     cursor: pointer;
   }
-  
+
   .content_desc a {
     text-decoration: none;
     color: #fff;
@@ -848,11 +872,6 @@ input:-moz-placeholder {
     width: 100%;
   }
 
-
-
-
-  
- 
   .nav-list {
     display: flex;
     font-size: 20px;
@@ -1042,6 +1061,47 @@ input:-moz-placeholder {
     padding-top: 18px;
     margin-bottom: 5px;
   }
+  .text-img {
+    display: flex;
+    padding: 8px;
+    column-gap: 10px;
+  }
+  .button-pop {
+    display: flex;
+    column-gap: 5px;
+    width: max-content;
+    margin-left: 46%;
+    margin-top: -55px;
+  }
+
+  .button-pop button {
+    background-color: #f55800;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+  }
+  .project-text {
+    width: 80%;
+  }
+  .Popup-image {
+    width: 45%;
+    height: 50%;
+  }
+  .popup-container {
+    background-color: white;
+    margin-bottom: 30px;
+    border: solid #000;
+    border-width: 1px;
+    height: 80vh;
+  }
+  #named {
+    margin-top: -120px;
+  }
 
   .recent-project-tech li {
     font-family: "Inter", sans-serif;
@@ -1127,21 +1187,21 @@ input:-moz-placeholder {
   .project-tool li {
     font-family: "Inter", sans-serif;
     margin-left: 8px;
-    padding: 10px; 
+    padding: 10px;
     font-size: 12px;
     font-weight: 500;
     font-style: normal;
     color: black;
     border: #000 solid;
     border-width: 1px;
-    background-color: white
-  /* color: #fff;
+    background-color: white;
+    /* color: #fff;
   padding: 10px;
   margin-left: 6%;
 
   border-spacing: 4%; */
   }
-  .pop-container {
+  .popup-container {
     display: flex;
     flex-direction: column;
     row-gap: 15px;
@@ -1176,24 +1236,16 @@ input:-moz-placeholder {
     width: 20%;
   }
 
-  .project-stack ul li {
+  .skills {
     font-family: "Inter", sans-serif;
     margin: 2px;
     padding: 10px;
-    color: #fff;
+    color: #ff0303;
     font-size: 12px;
     font-weight: 500;
     font-style: normal;
-    
   }
-   
-   #close {
-    float: right;
-    margin-right: 50px;
-    margin-top: 65px;
-    font-size: 25px;
 
-   }
 
   .see-none {
     display: none;
@@ -1381,7 +1433,6 @@ input:-moz-placeholder {
 }
 
 @media (max-width: 767px) {
-
   .content_desc img {
     display: none;
   }
@@ -1397,7 +1448,7 @@ input:-moz-placeholder {
     background-color: white;
     padding: 24px 16px 0 16px;
   }
-   
+
   .content_desc h2 {
     margin: 72px 16px 12px 16px;
     font-family: "Crete Round", sans-serif;
@@ -1458,15 +1509,4 @@ input:-moz-placeholder {
     border-radius: 2px;
     padding: 16px;
   }
-
-
-
-
-
 }
-
-
-
-
-
-

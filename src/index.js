@@ -34,238 +34,226 @@ links.forEach((link) => {
 });
 
 // The pop Up window
-const bannerProjects = [
+// 
+
+
+const projectsArr = [
   {
-    Name: "projectOne",
-    projectTitle: "Multi-Post Stories",
-    projectDescription: `A daily selection of privately personalized reads; no accounts or
-      sign-ups required. has been the industry's standard dummy text
-      ever since the 1500s, when an unknown printer took a standard
-      dummy text.`,
-    tech: ["CSS", "HTML", "Bootstrap", "Ruby"],
-    img1: "Img/recent-works place holder.pngImg/recent-works place holder.png",
-    img2: "Img/Img Placeholder (2).png",
+    projectName: 'Keeping track of hundreds  of components website',
+    projectDescription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. <br><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+    technology: ['HTML', 'Bootstrap ', 'Ruby on Rails'],
+    linkToLive: 'https://meryemsanem.github.io/desktop-version/',
+    linkToSource: 'https://github.com/meryemsanem/desktop-version',
+    image: 'Img/Snapshoot Portfolio.png',
+  },
+  {
+    projectName: 'Multi Post Stories',
+    projectDescription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
+    linkToLive: 'https://meryemsanem.github.io/desktop-version/',
+    linkToSource: 'https://github.com/meryemsanem/desktop-version',
+    image: 'Img/Snapshoot Portfolio.png',
+  },
+  {
+    projectName: 'Multi Post Stories',
+    projectDescription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
+    linkToLive: 'https://meryemsanem.github.io/desktop-version/',
+    linkToSource: 'https://github.com/meryemsanem/desktop-version',
+    image: 'Img/Snapshoot Portfolio.png',
+  },
+  {
+    projectName: 'Multi Post Stories',
+    projectDescription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.",
+    technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
+    linkToLive: 'https://meryemsanem.github.io/desktop-version/',
+    linkToSource: 'https://github.com/meryemsanem/desktop-version',
+    image: 'Img/Snapshoot Portfolio.png',
+  },
+  {
+    projectName: 'Multi Post Stories',
+    projectDescription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
+    linkToLive: 'https://meryemsanem.github.io/desktop-version/',
+    linkToSource: 'https://github.com/meryemsanem/desktop-version',
+    image: 'Img/Snapshoot Portfolio.png',
+  },
+  {
+    projectName: 'Multi Post Stories',
+    projectDescription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
+    linkToLive: 'https://meryemsanem.github.io/desktop-version/',
+    linkToSource: 'https://github.com/meryemsanem/desktop-version',
+    image: 'Img/Snapshoot Portfolio.png',
+  },
+  {
+    projectName: 'Multi Post Stories',
+    projectDescription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
+    linkToLive: 'https://meryemsanem.github.io/desktop-version/',
+    linkToSource: 'https://github.com/meryemsanem/desktop-version',
+    image: 'Img/Snapshoot Portfolio.png',
+  },
+  {
+    projectName: 'Keeping track of hundreds  of components website',
+    projectDescription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
+    linkToLive: 'https://meryemsanem.github.io/desktop-version/',
+    linkToSource: 'https://github.com/meryemsanem/desktop-version',
+    image: 'Img/Snapshoot Portfolio.png',
+  },
+  {
+    projectName: 'Keeping track of hundreds  of components website',
+    projectDescription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. <br><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+    technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
+    linkToLive: 'https://meryemsanem.github.io/desktop-version/',
+    linkToSource: 'https://github.com/meryemsanem/desktop-version',
+    image: 'Img/Snapshoot Portfolio.png',
+  },
+  {
+    projectName: 'Keeping track of hundreds  of components website',
+    projectDescription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. <br><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+    technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
+    linkToLive: 'https://meryemsanem.github.io/desktop-version/',
+    linkToSource: 'https://github.com/meryemsanem/desktop-version',
+    image: 'Img/Snapshoot Portfolio.png',
   },
 ];
+const projectBtns = document.querySelectorAll('.see-project');
+Array.from(projectBtns).forEach((projectBtns, i) => {
+  projectBtns.addEventListener('click', () => {
+    const viewportWidth = window.innerWidth || document.documentElement.clientWidth;
 
-const projectInfo = [
-  {
-    id: 1,
-    projectName: 'Data Dashboard Healthcare',
-    projectInfo:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-    tech: ['HTML', 'Bootstrap', 'Ruby'],
-    img: 'icons/pro_sec.svg',
-  },
-  {
-    id: 2,
-    projectName: 'Data Dashboard Healthcare',
-    projectInfo:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-    tech: ['HTML', 'Bootstrap', 'Ruby'],
-    img: 'icons/Data_content_image.svg',
-  },
-  {
-    id: 3,
-    projectName: 'Website Portfolio',
-    projectInfo:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-    tech: ['HTML', 'Bootstrap', 'Ruby'],
-    img: 'icons/website.svg',
-  },
-  {
-    id: 4,
-    projectName: 'Profesional Art Printing Data',
-    projectInfo:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-    tech: ['HTML', 'Bootstrap', 'Ruby'],
-    img: 'icons/professional.svg',
-  },
-  {
-    id: 5,
-    projectName: 'Data Dashboard Healthcare',
-    projectInfo:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-    tech: ['HTML', 'Bootstrap', 'Ruby'],
-    img: 'icons/Data_content_image.svg',
-  },
-  {
-    id: 6,
-    projectName: 'Website Portfolio',
-    projectInfo:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-    tech: ['HTML', 'Bootstrap', 'Ruby'],
-    img: 'icons/website.svg',
-  },
-];
-
-
-function mainProject() {
-  const presentProject = bannerProjects[0];
-  const headLineProject = `<div class="please">
-   
-   <div class="multi-note">
-   <h2 class="multi">${presentProject.projectTitle}</h2>
-   <p>${presentProject.projectDescription}</p>
-   <ul class="recent-project-tech works-flex-item">
-      <li class="recent-lists">
-        <a href="#">${presentProject.tech[0]}</a>
-      </li>
-      <li class="recent-lists">
-        <a href="#">${presentProject.tech[1]}</a>
-      </li>
-      <li class="recent-lists">
-        <a href="#">${presentProject.tech[2]}</a>
-      </li>
-      <li class="recent-lists">
-        <a href="#">${presentProject.tech[3]}</a>
-      </li>
-    </ul>
-    
-    <button id=${presentProject.Name} onclick="clickedButton(this.id)" type ="button" class = "works-flex-item see-recent-project" >See project</button>
-   </div>
-  
-
-  </div>
-  `;
-  return headLineProject;
-}
-
-const showSections = () => {
-  const divCard = projectInfo.map((item) => {
-    if (item.id === 1) {
-      return `<section class="center_content">
-    <section class="content_desc">
-      <img src=${item.img} alt="" />
-      <div class="top_left1">
-      <h2>${item.projectName}</h2>
-      <p>
-       ${item.projectInfo}
-      </p>
-      <ul>
-        <li>
-          <a href="#">${item.tech[0]}</a>
-        </li>
-        <li>
-          <a href="#">${item.tech[1]}</a>
-        </li>
-        <li>
-          <a href="#">${item.tech[2]}</a>
-        </li>
-        </ul>
-        <button id=${item.id} onclick="clickedButton(this.id)" type="button">See project</button>
-      </div>
-    </section>
-  </section>`;
-    }
-    return `<section class="center_content">
-  <section class="content_desc">
-    <img src=${item.img} alt="" />
-    <div class="top_left">
-      <h2>${item.projectName}</h2>
-      <p>
-       ${item.projectInfo}
-      </p>
-      <ul>
-        <li>
-          <a href="#">${item.tech[0]}</a>
-        </li>
-        <li>
-          <a href="#">${item.tech[1]}</a>
-        </li>
-        <li>
-          <a href="#">${item.tech[2]}</a>
-        </li>
-      </ul>
-      <button id=${item.id} onclick="clickedButton(this.id)" type="button">See project</button>
-    </div>
-  </section>
-</section>`;
-  });
-
-  return divCard;
-};
-
-
-
-function showPopup() {
-  const pop = `<div class="popup">
-  <div class="popup_content">
-    <div class="titleContent">
-      <div class="heading">
-        <h2 id="headingSection"></h2>
-      </div>
-      <img id="closeButton" onclick="closed()" src="icons/close.svg" alt="">
-    </div>
-    <ul>
-      <li>
-        <a href="#">CSS</a>
-      </li>
-      <li>
-        <a href="#">HTML</a>
-      </li>
-      <li>
-        <a href="#">BOOTSTRAP</a>
-      </li>
-      <li>
-        <a href="#">RUBY</a>
-      </li>
-    </ul>
-    <div class="desktopView">
-      <div id="popup_info">
-        <img id="popup-img" src="icons/Snapshoot Portfolio.jpg" alt="Portfolio">
-      </div>
-      <div class ="all_info">
-        <p id="projectDesc"></p>
-        <div class="bottom_section">
-          <button id="projectSeven" type="button">See project <img src="icons/live_icon.svg" alt="" class="btnIcon"></button>
-          <button id="projectSeven" type="button">See project <img src="icons/github_2.svg" class="btnIcon"> </button>
+    if (viewportWidth >= 768.1) {
+      const popDiv = document.createElement('div');
+      popDiv.id = 'background-popup';
+      popDiv.style.position = 'fixed';
+      popDiv.style.display = 'block';
+      popDiv.style.top = '11px';
+      popDiv.style.height = '100vh';
+      popDiv.style.zIndex = '11';
+      popDiv.innerHTML = `
+      <div class="popup-container">
+        <div class='desk-pop'>
+            <button id='close' class='close'>X</button>
+          </div> <br><br>
+              <h3 id='named'>${projectsArr[i].projectName}</h3> <br>
+     <div class='card-det'>
+              <ul class='skill'>
+              <a href="#" class="a"><li class='skills'>${projectsArr[i].technology[0]}</li></a> 
+              <a href="#" class="a"><li class='skills'>${projectsArr[i].technology[1]}</li></a>
+                <a href="#" class="a"><li class='skills'>${projectsArr[i].technology[2]}</li></a>
+              </ul> <br><br>
+<div class="text-img">
+          <img class="Popup-image" src='${projectsArr[i].image}'/>   
+          <p class='project-text'>
+              ${projectsArr[i].projectDescription}
+              </p>
         </div>
-      </div>
-    </div>
-  </div>
-</div>`;
+      <div class='button-pop'>
+                <a href='${projectsArr[i].linkToLive}'>
+                  <button class='desk-button'>
+                    <span>See Live</span>
+                   <i class="fa-sharp fa-light fa-arrow-up-left-from-circle fa-rotate-90 fa-2xs"></i>
+                  </button>
+                </a>
+                <a href='${projectsArr[i].linkToSource}'>
+                  <button class='desk-button'>
+                    <span>See Source</span>
+                    <i class='fa-brands fa-github fa-2xs'></i>
+                  </button>
+                </a>
+              </div>
+            </div>  
+        </div>`;
+      document.body.appendChild(popDiv);
+    } else {
+      const newDiv = document.createElement('div');
+      newDiv.id = 'mobile';
+      newDiv.style.position = 'fixed';
+      newDiv.style.marginTop = '20px';
+      newDiv.style.top = '0';
+      newDiv.style.left = '50%';
+      newDiv.style.height = '650px';
+      newDiv.style.width = '94%';
+      newDiv.style.transform = 'translateX(-50%)';
+      newDiv.style.zIndex = '99';
+      newDiv.innerHTML = `
+      <div class='popup-container2'>
+        <div class='mob-pop'>
+         <button id='close' class='close'>&#x2716;</button>
+         <h3 id='name'>${projectsArr[i + 1].projectName}</h3> <br>
+         </div> <br><br>
+          <ul class='skill'>
+         <a href="#" class="a"><li class='skills'>${
+  projectsArr[i].technology[0]
+}</li></a>
+          <a href="#" class="a"><li class='skills'>${
+  projectsArr[i].technology[1]
+}</li></a>
+          <a href="#" class="a"><li class='skills'>${
+  projectsArr[i].technology[2]
+}</li></a>
+        </ul>
+        <div class="text-img">
+       <img class="Pop-Img" src='${
+  projectsArr[i + 1].image
+}' alt='mobile-popup' />
+        <p class="project-text">${
+  projectsArr[i + 1].projectDescription
+}</p></div>
+     <div class='button-pop'>
+                <a href='${projectsArr[i + 1].linkToLive}'>
+                  <button class='desk-button'>
+                    <span>See Live</span>
+                   <i class="fa-sharp fa-light fa-arrow-up-left-from-circle fa-rotate-90 fa-2xs"></i>
+                  </button>
+                </a>
+                <a href='${projectsArr[i + 1].linkToSource}'>
+                  <button class='desk-button'>
+                    <span>See Source</span>
+                    <i class='fa-brands fa-github fa-2xs'></i>
+                  </button>
+                </a>
+              </div>
+            </div>  
+        </div>`;
 
-  return pop;
-}
-function clickedButton(theId) {
-  const savedInfo = theId;
-  const titleSelect = document.getElementById('headingSection');
-  const paragraphSelect = document.getElementById('projectDesc');
-  const popWin = document.querySelector('.popup');
-
-  projectInfo.forEach((e, i) => {
-    const project = i;
-    if (projectInfo[project].id === Number(savedInfo)) {
-      titleSelect.innerHTML = projectInfo[project].projectName;
-      paragraphSelect.innerHTML = projectInfo[project].projectInfo;
-      popWin.style.visibility = 'visible';
+      document.body.appendChild(newDiv);
     }
   });
-
-  bannerProjects.forEach((bannerPrj) => {
-    if (bannerPrj.Name === savedInfo) {
-      titleSelect.innerHTML = bannerPrj.projectTitle;
-      paragraphSelect.innerHTML = bannerPrj.projectDescription;
-      popWin.style.visibility = 'visible';
-    }
-  });
-}
-
-clickedButton();
-
-// close popup window
-function closed() {
-  const popWin = document.querySelector('.popup');
-  popWin.style.visibility = 'hidden';
-}
-
-
-
-window.addEventListener('load', () => {
-  document.getElementById('multiStories').innerHTML = mainProject();
-  document.getElementById('popWindow').innerHTML = showPopup();
-  document.getElementById('grid_contentdesc').innerHTML = showSections().join('');
 });
-mobileMenu();
-closed();
+
+function removeNewDiv() {
+  const newDiv = document.querySelector('#mobile');
+  const parentElement = newDiv.parentNode;
+  parentElement.removeChild(newDiv);
+}
+
+document.addEventListener('click', (event) => {
+  if (event.target.id === 'close') {
+    removeNewDiv();
+  }
+});
+
+function removeDeskPop() {
+  const deskDiv = document.querySelector('#background-popup');
+  const parentElement = deskDiv.parentNode;
+  parentElement.removeChild(deskDiv);
+}
+
+document.addEventListener('click', (event) => {
+  if (event.target.id === 'close') {
+    removeDeskPop();
+  }
+});
