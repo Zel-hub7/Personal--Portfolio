@@ -50,6 +50,7 @@ nav {
   color: #fff;
 }
 
+
 #logo {
   font-family: "Roboto", sans-serif;
   color: white;
@@ -204,7 +205,12 @@ li a:hover img {
   padding-top: 18%;
   width: 100%;
 }
-
+.top_left ul li a {
+ color: white;
+}
+.top_left1 ul li a {
+  color: white;
+}
 .multi {
   font-size: 35px;
   font-family: "Crete Round", sans-serif;
@@ -1295,7 +1301,7 @@ input:-moz-placeholder {
     font-family: "Inter", sans-serif;
     margin: 2px;
     padding: 10px;
-    color: #ff0303;
+    color: #ffffff;
     font-size: 12px;
     font-weight: 500;
     font-style: normal;
