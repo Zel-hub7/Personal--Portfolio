@@ -147,7 +147,7 @@ const projectsArr = [
     image: 'Img/Snapshoot Portfolio.png',
   },
   {
-    projectName: 'Data Dashboard Healthcare',
+    projectName: 'Multi-Post Stories',
     projectDescription: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard",
     technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
     linkToLive: 'https://meryemsanem.github.io/desktop-version/',
@@ -356,7 +356,7 @@ document.addEventListener('click', (event) => {
 
 
 window.addEventListener("load", () => {
-  document.getElementById("multiStories").innerHTML = mainProject();
+  // document.getElementById("multiStories").innerHTML = mainProject();
   
   // document.getElementById('grid_contentdesc').innerHTML = showSections().join('');
 });
