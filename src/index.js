@@ -276,11 +276,10 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
       const newDiv = document.createElement('div');
       newDiv.id = 'mobile';
       newDiv.style.position = 'fixed';
-      
       newDiv.style.marginTop = '20px';
       newDiv.style.top = '0';
       newDiv.style.left = '50%';
-      newDiv.style.height = '650px';
+      newDiv.style.height = '580px';
       newDiv.style.width = '94%';
       newDiv.style.transform = 'translateX(-50%)';
       newDiv.style.zIndex = '99';
