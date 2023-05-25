@@ -606,6 +606,16 @@ input:-moz-placeholder {
     display: none;
   }
 
+  .desk-error {
+    display: none;
+  }
+
+  #error {
+    color: red;
+    margin-top: 30px;
+    font-size: 20px;
+  }
+
   .mobile-menu {
     display: none;
   }
@@ -614,7 +624,6 @@ input:-moz-placeholder {
     padding-top: 25px;
   }
 
-  /* Temporary change */
   .nav-menu {
     display: none;
   }
