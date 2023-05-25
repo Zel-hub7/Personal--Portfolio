@@ -684,6 +684,7 @@ input:-moz-placeholder {
     background-color: white;
     border: solid black;
     border-width: 1px;
+    overflow-y: scroll;
   }
   .mob-img {
     display: flex;
@@ -856,6 +857,17 @@ input:-moz-placeholder {
     background-color: #fff;
     gap: 1.5vw;
   }
+  .mob-img {
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .mob-pro {
+    font-size: 16px;
+    margin-bottom: 150px;
+  }
+  
   .center_content {
     display: grid;
     grid-template-rows: auto auto auto auto;
@@ -920,6 +932,9 @@ input:-moz-placeholder {
   }
   .content_desc li:hover {
     cursor: pointer;
+  }
+  .popup-container2 {
+    margin-top: 15%;
   }
 
   .content_desc a {

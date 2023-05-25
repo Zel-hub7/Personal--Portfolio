@@ -279,14 +279,14 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
       newDiv.style.marginTop = '20px';
       newDiv.style.top = '0';
       newDiv.style.left = '50%';
-      newDiv.style.height = '580px';
+      newDiv.style.height = '650px';
       newDiv.style.width = '94%';
       newDiv.style.transform = 'translateX(-50%)';
       newDiv.style.zIndex = '99';
       newDiv.innerHTML = `
       <div class='popup-container2'>
         <div class='mob-pop'>
-        <h3 id='name'>${projectsArr[i + 1].projectName}</h3>
+        <h3 class ="mob-name" id='name'>${projectsArr[i + 1].projectName}</h3>
 
          <i id = "close" class="fa-solid fa-xmark close"></i>
           <br>
@@ -306,7 +306,7 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
        <img class="Pop-Img" src='${
   projectsArr[i + 1].image
 }' alt='mobile-popup' />
-        <p class="project-text">${
+        <p class="project-text mob-pro">${
   projectsArr[i + 1].projectDescription
 }</p></div>
      <div class='button-pop'>
