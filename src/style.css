@@ -622,6 +622,10 @@ input:-moz-placeholder {
     margin-top: 5px;
     
   }
+  .desk-button {
+    size: 100%;
+    margin-top: -15px;
+  }
   .close {
    margin-top: -22px;  
    float: right;
@@ -640,6 +644,7 @@ input:-moz-placeholder {
     margin-top: -7px;
   }
   .text-img {
+  
     
   }
   .skill li {
@@ -662,6 +667,8 @@ input:-moz-placeholder {
   .mob-img {
     display: flex;
     flex-direction: column;
+    max-width: 100%;
+    height: auto;
     row-gap: 10px;
     margin: 5%;
     margin-top: -10px;
