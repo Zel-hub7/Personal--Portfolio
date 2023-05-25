@@ -30,6 +30,10 @@ nav {
   display: flex;
   justify-content: space-between;
 }
+.project-text {
+  font-family: 'Inter', sans-serif;
+  color: #344563;
+}
 
 .nav-list {
   display: block;
@@ -97,6 +101,11 @@ li a:hover img {
   height: 100vh;
 
   /* background-attachment: fixed; */
+}
+
+#name {
+  font-family: 'Crete Round', sans-serif;
+  color: #172B4D;
 }
 
 #my_name {
