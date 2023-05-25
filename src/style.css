@@ -605,6 +605,13 @@ input:-moz-placeholder {
   .nav-list {
     display: none;
   }
+  .desk-error {
+    display: none;
+  }
+  #error {
+    color: red;
+    margin-top: 30px;
+  }
 
   .mobile-menu {
     display: none;
