@@ -303,21 +303,21 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
 }</li></a>
         </ul>
         <div class="text-img mob-img">
-       <img class="Pop-Img" src='${
+       <img id ="kimg" class="Pop-Img" src='${
   projectsArr[i + 1].image
 }' alt='mobile-popup' />
         <p class="project-text mob-pro">${
   projectsArr[i + 1].projectDescription
 }</p></div>
-     <div class='button-pop'>
+     <div class='button-pop desktop-button'>
                 <a href='${projectsArr[i + 1].linkToLive}'>
-                  <button class='desk-button'>
+                  <button class='desk-button dbutton'>
                     <span>See Live</span>
                    <i class="fa-sharp fa-light fa-arrow-up-left-from-circle fa-rotate-90 fa-2xs"></i>
                   </button>
                 </a>
                 <a href='${projectsArr[i + 1].linkToSource}'>
-                  <button class='desk-button'>
+                  <button class='desk-button dbutton'>
                     <span>See Source</span>
                     <i class='fa-brands fa-github fa-2xs'></i>
                   </button>

@@ -858,9 +858,28 @@ input:-moz-placeholder {
     gap: 1.5vw;
   }
   .mob-img {
-    width: 55%;
+    max-width: 100%;
     display: flex;
     flex-direction: row;
+  }
+  #kimg {
+    width: 60%;
+  }
+  #mobile {
+    width: 30%;
+  }
+
+  .desktop-button {
+    display: none;
+    display: flex;
+    width: 50%;
+    padding-left: 65px;    
+  }
+  .dbutton {
+    font-size: 15px;
+    width: 100%;
+    height: 10%;
+    padding-top: -100px;
   }
 
   .mob-pro {
@@ -935,6 +954,8 @@ input:-moz-placeholder {
   }
   .popup-container2 {
     margin-top: 15%;
+    width: 100%;
+    
   }
 
   .content_desc a {
