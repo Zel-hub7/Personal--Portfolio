@@ -34,7 +34,6 @@ links.forEach((link) => {
 });
 
 const form = document.querySelector('form');
-const container = document.querySelector('form #form-btn-container');
 form.addEventListener('submit', (event) => {
   event.preventDefault();
   const emailInput = document.getElementById('email').value;
@@ -45,4 +44,3 @@ form.addEventListener('submit', (event) => {
     form.submit();
   }
 });
-
