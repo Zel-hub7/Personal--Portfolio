@@ -605,9 +605,11 @@ input:-moz-placeholder {
   .nav-list {
     display: none;
   }
+  
   .desk-error {
     display: none;
-  }
+  } 
+
   #error {
     color: red;
     margin-top: 30px;
@@ -619,9 +621,8 @@ input:-moz-placeholder {
 
   #hidden {
     padding-top: 25px;
-  }
+  } 
 
-  /* Temporary change */
   .nav-menu {
     display: none;
   }
