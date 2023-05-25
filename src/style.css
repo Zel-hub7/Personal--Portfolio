@@ -7,6 +7,7 @@
   list-style: none;
   box-sizing: border-box;
 }
+
 .center_content {
   display: grid;
   grid-template-rows: auto auto auto auto;
@@ -628,16 +629,27 @@ input:-moz-placeholder {
   }
   #name {
     font-size: 30px;
-    margin-top: 5px;
+    margin-top:5px;
+    margin-left: 5%;
     
   }
-  .desk-button {
-    size: 100%;
-    margin-top: -15px;
+  .popup-container {
+    background-color: white; 
   }
   .close {
-   margin-top: -22px;  
-   float: right;
+    float: right;
+    margin-top: -25px;
+  }
+  
+  .desk-button {
+    margin-top: -18px;
+  }
+ 
+  .Popup-image {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: -25px;
+
   }
   .mob-pop {
     /* display: flex; */
@@ -652,9 +664,8 @@ input:-moz-placeholder {
     padding-top: -6%;
     margin-top: -7px;
   }
-  .text-img {
-  
-    
+  .project-text {
+    margin-left: 5%;
   }
   .skill li {
     margin-left: 8px;
