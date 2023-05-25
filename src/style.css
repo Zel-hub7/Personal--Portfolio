@@ -605,10 +605,10 @@ input:-moz-placeholder {
   .nav-list {
     display: none;
   }
-  
+
   .desk-error {
     display: none;
-  } 
+  }
 
   #error {
     color: red;
@@ -621,7 +621,7 @@ input:-moz-placeholder {
 
   #hidden {
     padding-top: 25px;
-  } 
+  }
 
   .nav-menu {
     display: none;
