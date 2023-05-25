@@ -861,6 +861,7 @@ input:-moz-placeholder {
     max-width: 100%;
     display: flex;
     flex-direction: row;
+    column-gap: 2px;
   }
   #kimg {
     width: 60%;
