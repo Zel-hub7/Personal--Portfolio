@@ -368,6 +368,13 @@ textarea {
   border-spacing: 4%;
 }
 
+#see-project {
+  width: 40%; 
+  font-size: 17px;
+  margin-top: 10px;
+  padding: 10px;
+} 
+
 .about {
   margin-top: 24%;
   background-color: #1c1a19;
