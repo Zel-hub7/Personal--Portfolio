@@ -33,6 +33,7 @@ links.forEach((link) => {
   });
 });
 
+
 // The pop Up window
 //
 
@@ -370,3 +371,21 @@ window.addEventListener("load", () => {
   // document.getElementById("multiStories").innerHTML = mainProject();
   // document.getElementById('grid_contentdesc').innerHTML = showSections().join('');
 });
+
+// Validation form
+
+const form = document.querySelector('form');
+// const container = document.querySelector('form #form-btn-container');
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const emailInput = document.getElementById('email').value;
+  const error = document.querySelector('#error');
+  if (emailInput !== emailInput.toLowerCase()) {
+    error.innerText = 'Error: \n Form was not Sent! \n The email should be in LOWERCASE';
+  } else {
+    form.submit();
+  }
+});
+
+// console.log(he)
+
