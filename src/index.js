@@ -288,7 +288,7 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
         <div class='mob-pop'>
         <h3 class ="mob-name" id='name'>${projectsArr[i + 1].projectName}</h3>
 
-         <i id = "close" class="fa-solid fa-xmark close"></i>
+         <i id = "close" class="fa-solid fa-xmark close mob-close"></i>
           <br>
          </div> <br><br>
           <ul class='skill'>

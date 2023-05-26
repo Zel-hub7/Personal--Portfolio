@@ -896,9 +896,9 @@ input:-moz-placeholder {
 
   .desktop-button {
     display: flex;
-    background-color: red;
     padding-left: 100px;
     width: 15%;
+    margin-bottom: 150px;
   }
 
   .dbutton {
@@ -906,6 +906,11 @@ input:-moz-placeholder {
     width: 100%;
     height: 10%;
     padding-top: -100px;
+  }
+
+  .mob-close {
+    margin-right: 40px;
+    margin-top: -10px;
   }
 
   .mob-pro {
