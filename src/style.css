@@ -293,6 +293,22 @@ li a:hover img {
   border: 2px solid #f55800;
 }
 
+#btn-hover:disabled {
+  color: #5b5957;
+  background-color: #f4f1f0;
+}
+
+#btn-hover:active:enabled {
+  background-color: #f55800;
+  color: #fff;
+}
+
+#btn-hover:hover:enabled {
+  color: #f55800;
+  background-color: #fff5e1;
+  border: 2px solid #f55800;
+}
+
 .name {
   margin-top: 27%;
   font-size: 200%;
@@ -961,13 +977,7 @@ input:-moz-placeholder {
     width: 15%;
     margin-bottom: 150px;
   }
-
-  .desktop-button:hover{
-    color: #f55800;
-    background-color: #fff5e1;
-    border: 2px solid #f55800;
-  }
-
+  
   .dbutton {
     font-size: 15px;
     width: 100%;

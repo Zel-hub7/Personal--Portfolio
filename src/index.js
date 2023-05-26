@@ -167,13 +167,13 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
         </div>
       <div class='button-pop'>
                 <a href='${projectsArr[i].linkToLive}'>
-                  <button class='desk-button'>
+                  <button id = "btn-hover" class='desk-button'>
                     <span>See Live</span>
                    <i class="fa-sharp fa-light fa-arrow-up-left-from-circle fa-rotate-90 fa-2xs"></i>
                   </button>
                 </a>
                 <a href='${projectsArr[i].linkToSource}'>
-                  <button class='desk-button'>
+                  <button id = "btn-hover" class='desk-button'>
                     <span>See Source</span>
                     <i class='fa-brands fa-github fa-2xs'></i>
                   </button>
