@@ -245,10 +245,11 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
       popDiv.innerHTML = `
       <div class="popup-container">
         <div class='desk-pop'>
-        <i id = "close" class="fa-solid fa-xmark close"></i>
+        <i id = "close" class="fa-solid fa-xmark close lala"></i>
           </div> <br><br>
-              <h3 class ="pro-name" id='name'>${projectsArr[i].projectName}</h3> <br>
-              <i id = "close" class="fa-solid fa-xmark close removing"></i>
+              <h3 class ="pro-name" id='name'>${projectsArr[i].projectName}</h3>
+          <br>
+              
      <div class='card-det'>
               <ul class='skill'>
               <a href="#" class="a"><li class='skills'>${projectsArr[i].technology[0]}</li></a> 
