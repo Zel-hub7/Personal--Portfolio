@@ -405,6 +405,23 @@ textarea {
   padding: 10px;
 }
 
+#see-project:disabled {
+  color: #5b5957;
+  background-color: #f4f1f0;
+}
+
+#see-project:active:enabled {
+  background-color: #f55800;
+  color: #fff;
+}
+
+#see-project:hover:enabled {
+  color: #f55800;
+  background-color: #fff5e1;
+  border: 2px solid #f55800;
+}
+
+
 .about {
   margin-top: 24%;
   background-color: #1c1a19;
