@@ -34,7 +34,7 @@ links.forEach((link) => {
 });
 
 // The pop Up window
-// 
+//
 
 const bannerProjects = [
   {
@@ -50,59 +50,56 @@ const bannerProjects = [
   },
 ];
 
-
-
 const projectInfo = [
   {
     id: 1,
-    projectName: 'Data Dashboard Healthcare',
+    projectName: "Data Dashboard Healthcare",
     projectInfo:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-    tech: ['HTML', 'Bootstrap', 'Ruby'],
-    img: 'icons/pro_sec.svg',
+    tech: ["HTML", "Bootstrap", "Ruby"],
+    img: "icons/pro_sec.svg",
   },
   {
     id: 2,
-    projectName: 'Data Dashboard Healthcare',
+    projectName: "Data Dashboard Healthcare",
     projectInfo:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-    tech: ['HTML', 'Bootstrap', 'Ruby'],
-    img: 'icons/Data_content_image.svg',
+    tech: ["HTML", "Bootstrap", "Ruby"],
+    img: "icons/Data_content_image.svg",
   },
   {
     id: 3,
-    projectName: 'Website Portfolio',
+    projectName: "Website Portfolio",
     projectInfo:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-    tech: ['HTML', 'Bootstrap', 'Ruby'],
-    img: 'icons/website.svg',
+    tech: ["HTML", "Bootstrap", "Ruby"],
+    img: "icons/website.svg",
   },
   {
     id: 4,
-    projectName: 'Profesional Art Printing Data',
+    projectName: "Profesional Art Printing Data",
     projectInfo:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-    tech: ['HTML', 'Bootstrap', 'Ruby'],
-    img: 'icons/professional.svg',
+    tech: ["HTML", "Bootstrap", "Ruby"],
+    img: "icons/professional.svg",
   },
   {
     id: 5,
-    projectName: 'Data Dashboard Healthcare',
+    projectName: "Data Dashboard Healthcare",
     projectInfo:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-    tech: ['HTML', 'Bootstrap', 'Ruby'],
-    img: 'icons/Data_content_image.svg',
+    tech: ["HTML", "Bootstrap", "Ruby"],
+    img: "icons/Data_content_image.svg",
   },
   {
     id: 6,
-    projectName: 'Website Portfolio',
+    projectName: "Website Portfolio",
     projectInfo:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-    tech: ['HTML', 'Bootstrap', 'Ruby'],
-    img: 'icons/website.svg',
+    tech: ["HTML", "Bootstrap", "Ruby"],
+    img: "icons/website.svg",
   },
 ];
-
 
 function mainProject() {
   const presentProject = bannerProjects[0];
@@ -135,108 +132,116 @@ function mainProject() {
   return headLineProject;
 }
 
-
 const projectsArr = [
   {
-    projectName: 'Multi-Post Stories',
+    projectName: "Multi-Post Stories",
     projectDescription:
-       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    technology: ['HTML', 'Bootstrap ', 'Ruby on Rails'],
-    linkToLive: 'https://zel-hub7.github.io/',
-    linkToSource: 'https://github.com/Zel-hub7/Personal--Portfolio',
-    image: 'Img/Snapshoot Portfolio.png',
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    technology: ["HTML", "Bootstrap ", "Ruby on Rails"],
+    linkToLive: "https://zel-hub7.github.io/",
+    linkToSource: "https://github.com/Zel-hub7/Personal--Portfolio",
+    image: "Img/Snapshoot Portfolio.png",
   },
   {
-    projectName: 'Data Dashboard Healthcare',
-    projectDescription: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard",
-    technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
-    linkToLive: 'https://zel-hub7.github.io/',
-    linkToSource: 'https://github.com/Zel-hub7/Personal--Portfolio',
-    image: 'Img/Snapshoot Portfolio.png',
+    projectName: "Data Dashboard Healthcare",
+    projectDescription:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard",
+    technology: ["HTML", "Bootstrap", "Ruby on Rails"],
+    linkToLive: "https://zel-hub7.github.io/",
+    linkToSource: "https://github.com/Zel-hub7/Personal--Portfolio",
+    image: "Img/Snapshoot Portfolio.png",
   },
   {
-    projectName: 'Data Dashboard Healthcare',
-    projectDescription: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard",
-    technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
-    linkToLive: 'https://zel-hub7.github.io/',
-    linkToSource: 'https://github.com/Zel-hub7/Personal--Portfolio',
-    image: 'Img/Snapshoot Portfolio.png',
+    projectName: "Data Dashboard Healthcare",
+    projectDescription:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard",
+    technology: ["HTML", "Bootstrap", "Ruby on Rails"],
+    linkToLive: "https://zel-hub7.github.io/",
+    linkToSource: "https://github.com/Zel-hub7/Personal--Portfolio",
+    image: "Img/Snapshoot Portfolio.png",
   },
   {
-    projectName: 'Website Portfolio',
-    projectDescription: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard",
-    technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
-    linkToLive: 'https://zel-hub7.github.io/',
-    linkToSource: 'https://github.com/Zel-hub7/Personal--Portfolio',
-    image: 'Img/Snapshoot Portfolio.png',
+    projectName: "Website Portfolio",
+    projectDescription:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard",
+    technology: ["HTML", "Bootstrap", "Ruby on Rails"],
+    linkToLive: "https://zel-hub7.github.io/",
+    linkToSource: "https://github.com/Zel-hub7/Personal--Portfolio",
+    image: "Img/Snapshoot Portfolio.png",
   },
   {
-    projectName: 'Professional Art Printing Data',
-    projectDescription: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard",
-    technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
-    linkToLive: 'https://zel-hub7.github.io/',
-    linkToSource: 'https://github.com/Zel-hub7/Personal--Portfolio',
-    image: 'Img/Snapshoot Portfolio.png',
+    projectName: "Professional Art Printing Data",
+    projectDescription:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard",
+    technology: ["HTML", "Bootstrap", "Ruby on Rails"],
+    linkToLive: "https://zel-hub7.github.io/",
+    linkToSource: "https://github.com/Zel-hub7/Personal--Portfolio",
+    image: "Img/Snapshoot Portfolio.png",
   },
   {
-    projectName: 'Data Dashboard Healthcare',
-    projectDescription: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard",
-    technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
-    linkToLive: 'https://zel-hub7.github.io/',
-    linkToSource: 'https://github.com/Zel-hub7/Personal--Portfolio',
-    image: 'Img/Snapshoot Portfolio.png',
+    projectName: "Data Dashboard Healthcare",
+    projectDescription:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard",
+    technology: ["HTML", "Bootstrap", "Ruby on Rails"],
+    linkToLive: "https://zel-hub7.github.io/",
+    linkToSource: "https://github.com/Zel-hub7/Personal--Portfolio",
+    image: "Img/Snapshoot Portfolio.png",
   },
   {
-    projectName: 'Website Portfolio',
-    projectDescription: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard",
-    technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
-    linkToLive: 'https://zel-hub7.github.io/',
-    linkToSource: 'https://github.com/Zel-hub7/Personal--Portfolio',
-    image: 'Img/Snapshoot Portfolio.png',
+    projectName: "Website Portfolio",
+    projectDescription:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard",
+    technology: ["HTML", "Bootstrap", "Ruby on Rails"],
+    linkToLive: "https://zel-hub7.github.io/",
+    linkToSource: "https://github.com/Zel-hub7/Personal--Portfolio",
+    image: "Img/Snapshoot Portfolio.png",
   },
   {
-    projectName: 'Keeping track of hundreds  of components website',
+    projectName: "Keeping track of hundreds  of components website",
     projectDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
-    linkToLive: 'https://zel-hub7.github.io/',
-    linkToSource: 'https://github.com/Zel-hub7/Personal--Portfolio',
-    image: 'Img/Snapshoot Portfolio.png',
+    technology: ["HTML", "Bootstrap", "Ruby on Rails"],
+    linkToLive: "https://zel-hub7.github.io/",
+    linkToSource: "https://github.com/Zel-hub7/Personal--Portfolio",
+    image: "Img/Snapshoot Portfolio.png",
   },
   {
-    projectName: 'Keeping track of hundreds  of components website',
+    projectName: "Keeping track of hundreds  of components website",
     projectDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. <br><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
-    linkToLive: 'https://zel-hub7.github.io/',
-    linkToSource: 'https://github.com/Zel-hub7/Personal--Portfolio',
-    image: 'Img/Snapshoot Portfolio.png',
+    technology: ["HTML", "Bootstrap", "Ruby on Rails"],
+    linkToLive: "https://zel-hub7.github.io/",
+    linkToSource: "https://github.com/Zel-hub7/Personal--Portfolio",
+    image: "Img/Snapshoot Portfolio.png",
   },
   {
-    projectName: 'Keeping track of hundreds  of components website',
+    projectName: "Keeping track of hundreds  of components website",
     projectDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. <br><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    technology: ['HTML', 'Bootstrap', 'Ruby on Rails'],
-    linkToLive: 'https://zel-hub7.github.io/',
-    linkToSource: 'https://github.com/Zel-hub7/Personal--Portfolio',
-    image: 'Img/Snapshoot Portfolio.png',
+    technology: ["HTML", "Bootstrap", "Ruby on Rails"],
+    linkToLive: "https://zel-hub7.github.io/",
+    linkToSource: "https://github.com/Zel-hub7/Personal--Portfolio",
+    image: "Img/Snapshoot Portfolio.png",
   },
 ];
-const projectBtns = document.querySelectorAll('.see-project');
+
+const projectBtns = document.querySelectorAll(".see-project");
+const overlay = document.querySelector(".overlay");
 Array.from(projectBtns).forEach((projectBtns, i) => {
-  projectBtns.addEventListener('click', () => {
-    const viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+  projectBtns.addEventListener("click", () => {
+    const viewportWidth =
+      window.innerWidth || document.documentElement.clientWidth;
 
     if (viewportWidth >= 768.1) {
-      const popDiv = document.createElement('div');
-      popDiv.id = 'background-popup';
-      popDiv.style.position = 'fixed';
-      popDiv.style.display = 'block';
-      popDiv.style.top = '5px';
-      popDiv.style.left = '25px';
-      popDiv.style.width = '90vw';
-      popDiv.style.height = '100vh';
-      popDiv.style.zIndex = '11';
+      const popDiv = document.createElement("div");
+      popDiv.id = "background-popup";
+      popDiv.style.position = "fixed";
+      popDiv.style.display = "block";
+      popDiv.style.top = "5px";
+      popDiv.style.left = "25px";
+      popDiv.style.width = "90vw";
+      popDiv.style.height = "100vh";
+      popDiv.style.zIndex = "11";
       popDiv.innerHTML = `
       <div class="popup-container">
         <div class='desk-pop'>
@@ -273,17 +278,18 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
             </div>  
         </div>`;
       document.body.appendChild(popDiv);
+      overlay.classList.remove("hidden");
     } else {
-      const newDiv = document.createElement('div');
-      newDiv.id = 'mobile';
-      newDiv.style.position = 'fixed';
-      newDiv.style.marginTop = '20px';
-      newDiv.style.top = '0';
-      newDiv.style.left = '50%';
-      newDiv.style.height = '650px';
-      newDiv.style.width = '94%';
-      newDiv.style.transform = 'translateX(-50%)';
-      newDiv.style.zIndex = '99';
+      const newDiv = document.createElement("div");
+      newDiv.id = "mobile";
+      newDiv.style.position = "fixed";
+      newDiv.style.marginTop = "20px";
+      newDiv.style.top = "0";
+      newDiv.style.left = "50%";
+      newDiv.style.height = "650px";
+      newDiv.style.width = "94%";
+      newDiv.style.transform = "translateX(-50%)";
+      newDiv.style.zIndex = "99";
       newDiv.innerHTML = `
       <div class='popup-container2'>
         <div class='mob-pop'>
@@ -294,22 +300,22 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
          </div> <br><br>
           <ul class='skill'>
          <a href="#" class="a"><li class='skills'>${
-  projectsArr[i].technology[0]
-}</li></a>
+           projectsArr[i].technology[0]
+         }</li></a>
           <a href="#" class="a"><li class='skills'>${
-  projectsArr[i].technology[1]
-}</li></a>
+            projectsArr[i].technology[1]
+          }</li></a>
           <a href="#" class="a"><li class='skills'>${
-  projectsArr[i].technology[2]
-}</li></a>
+            projectsArr[i].technology[2]
+          }</li></a>
         </ul>
         <div class="text-img mob-img">
        <img id ="kimg" class="Pop-Img" src='${
-  projectsArr[i + 1].image
-}' alt='mobile-popup' />
+         projectsArr[i + 1].image
+       }' alt='mobile-popup' />
         <p class="project-text mob-pro">${
-  projectsArr[i + 1].projectDescription
-}</p></div>
+          projectsArr[i + 1].projectDescription
+        }</p></div>
      <div class='button-pop desktop-button drb'>
                 <a href='${projectsArr[i + 1].linkToLive}'>
                   <button id ="desbtn" class='desk-button'>
@@ -328,52 +334,38 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
         </div>`;
 
       document.body.appendChild(newDiv);
+      overlay.classList.remove("hidden");
     }
   });
 });
 function removeNewDiv() {
-  const newDiv = document.querySelector('#mobile');
+  const newDiv = document.querySelector("#mobile");
   const parentElement = newDiv.parentNode;
   parentElement.removeChild(newDiv);
+  overlay.classList.remove("hidden");
 }
 
-document.addEventListener('click', (event) => {
-  if (event.target.id === 'close') {
+document.addEventListener("click", (event) => {
+  if (event.target.id === "close") {
     removeNewDiv();
+    overlay.classList.add("hidden");
   }
 });
 
 function removeDeskPop() {
-  const deskDiv = document.querySelector('#background-popup');
+  const deskDiv = document.querySelector("#background-popup");
   const parentElement = deskDiv.parentNode;
   parentElement.removeChild(deskDiv);
 }
 
-document.addEventListener('click', (event) => {
-  if (event.target.id === 'close') {
+document.addEventListener("click", (event) => {
+  if (event.target.id === "close") {
     removeDeskPop();
+    overlay.classList.add("hidden");
   }
 });
-
-
-// Form validation 
-
-const form = document.querySelector('form');
-// const container = document.querySelector('form #form-btn-container');
-form.addEventListener('submit', (event) => {
-  event.preventDefault();
-  const emailInput = document.getElementById('email').value;
-  const error = document.querySelector('#error');
-  if (emailInput !== emailInput.toLowerCase()) {
-    error.innerText = 'Error: \n Form was not Sent! \n The email should be in LOWERCASE';
-  } else {
-    form.submit();
-  }
-});
-
 
 window.addEventListener("load", () => {
   // document.getElementById("multiStories").innerHTML = mainProject();
-  
   // document.getElementById('grid_contentdesc').innerHTML = showSections().join('');
 });
