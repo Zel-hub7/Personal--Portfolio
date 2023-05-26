@@ -925,6 +925,11 @@ input:-moz-placeholder {
     width: 15%;
     margin-bottom: 150px;
   }
+  .desktop-button:hover:enabled {
+    color: #f55800;
+    background-color: #fff5e1;
+    border: 2px solid #f55800;
+  }
 
   .dbutton {
     font-size: 15px;
