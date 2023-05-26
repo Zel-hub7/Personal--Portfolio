@@ -636,6 +636,15 @@ input:-moz-placeholder {
   .nav-list {
     display: none;
   }
+  .desk-error {
+    display: none;
+  }
+
+  #error {
+    color: red;
+    margin-top: 30px;
+    font-size: 20px;
+  }
 
   #name {
     font-size: 30px;
