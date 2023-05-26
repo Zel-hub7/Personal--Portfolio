@@ -696,6 +696,7 @@ input:-moz-placeholder {
     background-color: white;
     border: solid black;
     border-width: 1px;
+    backdrop-filter: blur(2em);
     overflow-y: scroll;
   }
 
