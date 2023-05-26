@@ -863,18 +863,32 @@ input:-moz-placeholder {
     flex-direction: row;
     column-gap: 2px;
   }
+  #desbtn {
+    font-size: 10px;
+    /* padding: 10px; */
+    width: 100%;
+    float: right;
+  }
   #kimg {
     width: 60%;
   }
   #mobile {
-    width: 30%;
+    height: 70vh;
+    backdrop-filter: blur(2em);
+    
   }
+  .popup-container2 {
+    
+    width: 10%;
+  } 
+
 
   .desktop-button {
-    display: none;
     display: flex;
-    width: 50%;
-    padding-left: 65px;    
+    background-color: red;
+    padding-left: 100px;
+    width: 15%;
+       
   }
   .dbutton {
     font-size: 15px;

@@ -309,15 +309,15 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
         <p class="project-text mob-pro">${
   projectsArr[i + 1].projectDescription
 }</p></div>
-     <div class='button-pop desktop-button'>
+     <div class='button-pop desktop-button drb'>
                 <a href='${projectsArr[i + 1].linkToLive}'>
-                  <button class='desk-button dbutton'>
+                  <button id ="desbtn" class='desk-button'>
                     <span>See Live</span>
                    <i class="fa-sharp fa-light fa-arrow-up-left-from-circle fa-rotate-90 fa-2xs"></i>
                   </button>
                 </a>
                 <a href='${projectsArr[i + 1].linkToSource}'>
-                  <button class='desk-button dbutton'>
+                  <button id = "desbtn" class='desk-button'>
                     <span>See Source</span>
                     <i class='fa-brands fa-github fa-2xs'></i>
                   </button>
