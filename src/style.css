@@ -277,6 +277,22 @@ li a:hover img {
   color: #ff6b00;
 }
 
+#desbtn:disabled {
+  color: #5b5957;
+  background-color: #f4f1f0;
+}
+
+#desbtn:active:enabled {
+  background-color: #f55800;
+  color: #fff;
+}
+
+#desbtn:hover:enabled {
+  color: #f55800;
+  background-color: #fff5e1;
+  border: 2px solid #f55800;
+}
+
 .name {
   margin-top: 27%;
   font-size: 200%;
