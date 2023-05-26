@@ -421,7 +421,6 @@ textarea {
   border: 2px solid #f55800;
 }
 
-
 .about {
   margin-top: 24%;
   background-color: #1c1a19;
@@ -994,7 +993,7 @@ input:-moz-placeholder {
     width: 15%;
     margin-bottom: 150px;
   }
-  
+
   .dbutton {
     font-size: 15px;
     width: 100%;
