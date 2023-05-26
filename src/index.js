@@ -243,6 +243,7 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
         <i id = "close" class="fa-solid fa-xmark close"></i>
           </div> <br><br>
               <h3 class ="pro-name" id='name'>${projectsArr[i].projectName}</h3> <br>
+              <i id = "close" class="fa-solid fa-xmark close removing"></i>
      <div class='card-det'>
               <ul class='skill'>
               <a href="#" class="a"><li class='skills'>${projectsArr[i].technology[0]}</li></a> 

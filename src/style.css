@@ -7,6 +7,12 @@
   list-style: none;
   box-sizing: border-box;
 }
+.background-popup {
+  backdrop-filter: blur(2px);
+}
+.popup-container {
+  backdrop-filter: blur(2px);
+}
 
 .center_content {
   display: grid;
@@ -871,6 +877,9 @@ input:-moz-placeholder {
     display: flex;
     flex-direction: row;
     column-gap: 2px;
+  }
+  .removing {
+    display: none;
   }
 
   #desbtn {
