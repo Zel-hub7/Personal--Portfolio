@@ -10,6 +10,9 @@
 .background-popup {
   backdrop-filter: blur(2px);
 }
+.removing {
+  display: none;
+}
 .popup-container {
   backdrop-filter: blur(2px);
 }
@@ -638,6 +641,9 @@ input:-moz-placeholder {
   }
   .desk-error {
     display: none;
+  }
+  .removing {
+    display: block;
   }
 
   #error {
