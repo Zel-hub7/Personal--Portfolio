@@ -11,7 +11,12 @@
 .background-popup {
   backdrop-filter: blur(2px);
 }
-
+.see-p1 {
+  margin-top: 2%;
+}
+#african {
+  height: 81%;
+}
 .removing {
   display: none;
 }
