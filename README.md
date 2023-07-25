@@ -47,7 +47,6 @@ After going through the study material (covering; semantics of HTML5, linters, C
 4. Figma
 
 ### Key Features <a name="key-features"></a>
-
 1. Portfolio Showcase: Explore my latest and best projects, showcasing diverse skills and talents.
 2. About Me: Learn about my background, passion for design, and the value I bring to projects.
 3. Responsive Design: Enjoy a seamless browsing experience on any device, as the portfolio site adapts to various screen sizes
