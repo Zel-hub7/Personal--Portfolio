@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-<div display = "flex">
+<div display = "flex" flexDirection = "row">
   <img src="./src/Img/port.png" alt="logo" width="50%"  height="auto" />
   <img src = "./src/Img/port2.png" alt="logo" width = "50%" height="auto"/>
   <br/>
