@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-<div>
+<div align = "center">
   <img align = "center" src="./src/Img/port.png" alt="logo" width="50%"  height="auto" />
  
   <br/>
