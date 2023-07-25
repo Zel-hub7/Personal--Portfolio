@@ -1,8 +1,8 @@
 <a name="readme-top"></a>
 
-<div display = "flex" align="center">
+<div display = "flex">
   <img src="./src/Img/port.png" alt="logo" width="50%"  height="auto" />
-  <img src = "./src/Img/port1.png" alt="logo" width = "50%" height="auto"/>
+  <img src = "./src/Img/port2.png" alt="logo" width = "50%" height="auto"/>
   <br/>
 
   <h3><b>MY Portfolio</b></h3>
