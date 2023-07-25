@@ -1,8 +1,8 @@
 <a name="readme-top"></a>
 
 <div>
-  <img src="./src/Img/port.png" alt="logo" width="50%"  height="auto" />
-  <img align = "right" margin = "20" src = "./src/Img/port2.png" alt="logo" width = "50%" height="auto"/>
+  <img align = "center" src="./src/Img/port.png" alt="logo" width="50%"  height="auto" />
+ 
   <br/>
 
   <h3><b>MY Portfolio</b></h3>
