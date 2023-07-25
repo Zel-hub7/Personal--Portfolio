@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align = "center">
-  <img align = "center" src="./src/Img/port.png" alt="logo" width="50%"  height="auto" />
+  <img align = "center" src="./src/Img/port.png" alt="logo" width="80%"  height="auto" />
  
   <br/>
 
