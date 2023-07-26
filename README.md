@@ -35,7 +35,7 @@
 
 # 📖 [Personal--Portfolio] <a name="about-project"></a>
 
-<-This is my personal portfolio site where You can see every detail you want to know about me and list of projects done.</p>
+This is my personal portfolio site where You can see every detail you want to know about me and list of projects done.</p>
 After going through the study material (covering; semantics of HTML5, linters, CSS3, figma, grid, gitflow and flexbox) I applied my knowledge to build a PORTFOLIO repository.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -56,12 +56,6 @@ After going through the study material (covering; semantics of HTML5, linters, C
 Click on this link to access the page live
 <a href ="https://zel-hub7.github.io/src">Live Demo Link</a>
 
-## 🚀 Live Demo
-Click on this link to access the page
-<a href ="https://zel-hub7.github.io/src">Live Demo Link</a>
-
-## 💻 Getting Started <a name="getting-started"></a>
-
 ### setup
 <p>Clone this repository to your desired folder</p>
 <a href ="https://github.com/Zel-hub7/Personal--Portfolio.git"></a>
@@ -74,12 +68,8 @@ Install this project with: -Git clone on your cd Desktop using my repository lin
 
 -To run the project, copy its path and run it on your online server.
 
-
-
 ### Run tests
-
 To run tests, run the following command:
-
 npx hint .
 npx stylelint "*/.{css,scss}"
 
